@@ -8,17 +8,40 @@ export const archivo = [
         title: "Departamentos",
         ruta: "#",
         color: "white",
-        // submenu: [
-        //     {
-
-        //     },
-        //     {
-
-        //     },
-        //     {
-
-        //     }
-        // ]
+        submenu: [
+            {
+                title: "ATLÁNTICO",
+                ruta: "/filtros/8"
+            },
+            {
+                title: "BOLÍVAR",
+                ruta: "/filtros/13"
+            },
+             {
+                title: "CESAR",
+                ruta: "/filtros/20"
+            },
+             {
+                title: "CÓRDOBA",
+                ruta: "/filtros/23"
+            },
+             {
+                title: "LA GUAJIRA",
+                ruta: "/filtros/44"
+            },
+             {
+                title: "MAGDALENA",
+                ruta: "/filtros/47"
+            },
+             {
+                title: "SUCRE",
+                ruta: "/filtros/70"
+            },
+             {
+                title: "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA",
+                ruta: "/filtros/88"
+            },
+        ]
     },
     {
         title: "Tipos de energía",

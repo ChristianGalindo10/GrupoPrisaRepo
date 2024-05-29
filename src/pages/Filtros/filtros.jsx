@@ -1,7 +1,45 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
-const FiltrosPage = () => {
+import { useParams } from 'react-router-dom';
 
+const departamentos = [
+    {
+        label: "Atlántico",
+        id: "8"
+    },
+    {
+        label: "Bolívar",
+        id: "13"
+    },
+     {
+        label: "Cesar",
+        id: "20"
+    },
+     {
+        label: "Córdoba",
+        id: "23"
+    },
+     {
+        label: "La Guajira",
+        id: "44"
+    },
+     {
+        label: "Magdalena",
+        id: "47"
+    },
+     {
+        label: "Sucre",
+        id: "70"
+    },
+     {
+        label: "Archipiélago de San Andrés, Providencia Y Santa Catalina",
+        id: "88"
+    },
+]
+
+const FiltrosPage = () => {
+    const { dep } = useParams();
+    const foundObject = departamentos.find(element => element.id === dep);
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [proyecto, setProyecto] = useState("");
 
@@ -15,7 +53,7 @@ const FiltrosPage = () => {
         setProyecto(proyecto)
     };
 
-    const [departamento, setDepartamento] = useState("");
+    // const [departamento, setDepartamento] = useState("");
     const [municipio, setMunicipio] = useState("");
 
     const options = [
@@ -30,11 +68,11 @@ const FiltrosPage = () => {
 
 
 
-    const onChange = (event) => {
-        const value = event.target.value;
-        setDepartamento(value);
-        setMunicipio("")
-    };
+    // const onChange = (event) => {
+    //     const value = event.target.value;
+    //     setDepartamento(value);
+    //     setMunicipio("")
+    // };
 
     const onChange2 = (event) => {
         const value = event.target.value;
@@ -42,19 +80,23 @@ const FiltrosPage = () => {
     };
 
     useEffect(() => {
+        setMunicipio("");
+    },[dep]);
 
-    }, [departamento, municipio, proyecto]);
+    useEffect(() => {
+        
+    }, [municipio, proyecto]);
 
 
     return (
 
         <div className="page_t1">
             <section className='title_section'>
-                <h2 className='title_page'>Proyectos energéticos por departamentos
+                <h2 className='title_page'>Proyectos energéticos {foundObject.label}
                 </h2>
             </section>
             <div id='filtersSection'>
-                <select className="form-select filter-select" aria-label="Default select example" onChange={onChange}>
+                {/* <select className="form-select filter-select" aria-label="Default select example" onChange={onChange}>
                     <option selected value="">SELECCIONE UN DEPARTAMENTO</option>
                     <option value="8">ATLÁNTICO</option>
                     <option value="13">BOLÍVAR</option>
@@ -71,9 +113,9 @@ const FiltrosPage = () => {
                             <option disabled selected value="">SELECCIONE UN DEPARTAMENTO</option>
                         </select>
                     )
-                }
+                } */}
                 {
-                    departamento == "8" && (
+                    dep == "8" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="8001">BARRANQUILLA</option>
@@ -90,7 +132,7 @@ const FiltrosPage = () => {
                     )
                 }
                 {
-                    departamento == "13" && (
+                    dep == "13" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="13001">CARTAGENA DE INDIAS</option>
@@ -110,7 +152,7 @@ const FiltrosPage = () => {
                     )
                 }
                 {
-                    departamento == "20" && (
+                    dep == "20" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="20178">CHIRIGUANÁ</option>
@@ -123,7 +165,7 @@ const FiltrosPage = () => {
                     )
                 }
                 {
-                    departamento == "23" && (
+                    dep == "23" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="23001">MONTERÍA</option>
@@ -142,7 +184,7 @@ const FiltrosPage = () => {
                     )
                 }
                 {
-                    departamento == "44" && (
+                    dep == "44" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="44110">EL MOLINO</option>
@@ -156,7 +198,7 @@ const FiltrosPage = () => {
                     )
                 }
                 {
-                    departamento == "47" && (
+                    dep == "47" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="47555">PLATO</option>
@@ -168,7 +210,7 @@ const FiltrosPage = () => {
                     )
                 }
                 {
-                    departamento == "70" && (
+                    dep == "70" && (
                         <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
                             <option selected value="">SELECCIONE UN MUNICIPIO</option>
                             <option value="70215">COROZAL</option>
@@ -193,7 +235,7 @@ const FiltrosPage = () => {
             <br />
             <section className='content_section2'>
                 <>
-                    {departamento ? (
+                    {dep ? (
                         <>
                             {
                                 municipio ? (
@@ -208,7 +250,7 @@ const FiltrosPage = () => {
                                 ) : (
                                     <>
                                         <div className='filterMap'>
-                                            <iframe src={"https://mercadostech.maps.arcgis.com/apps/dashboards/a6f1d95a3fe84a33b2e41db484e3a0e6#depto=" + departamento + "&recurso=" + proyecto } className='content_full_page2' style={{ width: '100%' }}></iframe>
+                                            <iframe src={"https://mercadostech.maps.arcgis.com/apps/dashboards/a6f1d95a3fe84a33b2e41db484e3a0e6#depto=" + dep + "&recurso=" + proyecto } className='content_full_page2' style={{ width: '100%' }}></iframe>
                                         </div>
                                         <div className="filterStats">
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea, inventore quos accusantium culpa aliquid fugiat itaque nulla tempore alias? Eius illo accusamus reprehenderit perspiciatis recusandae officiis, omnis est repellendus.</p>

@@ -6,7 +6,10 @@ import icon from "../../assets/icons/Prisa.png";
 import region from "../../assets/icons/region-caribe.jpg";
 import Lanzadores from '../../components/lanzadores/lanzadores';
 import proyectosBanner from "../../assets/icons/proyectosBanner.png";
-import potencialBanner from "../../assets/icons/potencialBanner.png"
+import potencialBanner from "../../assets/icons/potencialBanner.png";
+import News from '../../components/news/news';
+
+
 
 const Home = () => {
 
@@ -30,51 +33,33 @@ const Home = () => {
 
       if (i <= 1) {
         setGifI(i)
-        //setGif(gif[i]);
         i = i + 1
       } else {
         i = 0
         setGifI(i)
-        //setGif(gif[i]);
       }
 
     }, 2000);
 
 
-    // if (year != "Historia de la huella urbana") {
-    //   clearInterval(gifInterval)
-    //   i = 0
-    //   setGif(Gif[i]);
-    //   setGifI(i)
-    // }
-
     return () => {
       clearInterval(gifInterval)
       i = 0
-      //setGif(gif[i]);
       setGifI(i)
     }
 
   }, [mapa]);
+
+
 
   return (
 
     <div className="Home" id="Home">
       <div className="home-main-background">
         <div className="home-main-title-overlay">
-          <a href={gif[gifI]?.link_url} style={{textDecoration: 'none'}}><p className="bienvenido"><span style={{ fontWeight: 'bold' }}>Caribe Potencia Energética</span></p></a>
+          {/* <Link style={{textDecoration: 'none'}} to={gif[gifI]?.link_url}><p className="bienvenido"><span style={{ fontWeight: 'bold' }}>Caribe Potencia Energética</span></p></Link> */}
         </div>
-        {/* <Link to={'/'} style={{ background: 'black', zIndex: '100' }}>
-          <div style={{ width: '100%', position: 'absolute', display: 'flex', justifyContent: 'center', top: '10vh', height: '15vh !important' }}>
-            <img src={icon} className="ocultarImg" style={{ width: '22rem' }} />
-          </div>
-        </Link> */}
-        <Link style={{width: '100%'}}  to={gif[gifI]?.link_url} onClick={() => {
-          // setFilter(Data[gifI + 1])
-          // console.log(gifI + 1)
-          // console.log(Data[gifI + 1])
-          // setYear(gif?.link_url);
-        }}>
+        <Link style={{ width: '100%' }} to={gif[gifI]?.link_url}>
           <img src={gif[gifI]?.img_url} alt="plano escaneado" />
         </Link>
         {/* <img src={region} alt="marca de agua Construyendo Civilidad"></img> */}
@@ -97,6 +82,12 @@ const Home = () => {
           <iframe width="914" height="514" src="https://www.youtube.com/embed/XHAouERmdSg" title="La sostenibilidad para PRISA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
+
+      {/*Noticias*/}
+
+      <News></News>
+      {/*Fin noticias*/}
+
       <div style={{ padding: '3rem' }}>
         <Lanzadores />
       </div>
