@@ -1,2 +1,2 @@
-# SMOB
-Página web de la Sociedad de Mejoras y Ornato de Bogotá
+# PRISA
+Página web Grupo Prisa
