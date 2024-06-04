@@ -101,7 +101,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { archivo } from "./archivo";
-import './NvRes.css';
+// import './NvRes.css';
 import icon from "../../assets/icons/Prisa.png";
 
 const NvRes = () => {

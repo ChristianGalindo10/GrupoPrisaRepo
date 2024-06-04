@@ -1,143 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "./footer.css";
-import yt from "../../assets/icons/yt.png";
-import fb from "../../assets/icons/fb.png";
-import locationImg from "../../assets/icons/location.png";
-import phoneImg from "../../assets/icons/phone.png";
-import mailImg from "../../assets/icons/mail.png";
-import { Link } from "react-router-dom";
-import icon from "../../assets/icons/Prisa.png";
-
-// const Footer = () => {
-//   return (
-//     <footer className="footer" style={{ backgroundColor: "#F4F1EE" }}>
-//       <div
-//         className="footer-top"
-//         style={{
-//           heigth: "110px",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-around",
-//           padding: "0.5vh 1vw 0",
-//           gap: "1vw",
-//         }}
-//       >
-//         <div className="footer-p-div" style={{ width: "50%" }}>
-//           <p
-//             className="footer-p"
-//             style={{ padding: "0.5vh 1vw", lineHeight: "1em", }}
-//           >
-//             La Sociedad de Mejoras y Ornato de Bogotá es una entidad privada que
-//             tiene como objeto social principal el de trabajar por la civilidad
-//             fortaleciendo el centro de pensamiento y reflexión, promoviendo y
-//             fomentando la participación ciudadana, el arte, la cultura y en
-//             general, el desarrollo humano sostenible de los habitantes de la
-//             ciudad y la región. Fue creada en 1917. En la actualidad su sede se
-//             encuentra en el Parque Museo El Chicó.
-//           </p>
-//         </div>
-//         <div className="vistaC">
-//         <div className="footer-info">
-//           <ul style={{ listStyle: "none" }} className="footer-ul">
-//             <li className="s">
-//               <img src={locationImg} className="social-media" alt="Icono de ubicación"/>
-//               Cra 7 # 93 - 01
-//             </li>
-//             <li className="s">
-//               <img src={phoneImg} className="social-media" alt="Icono de télefono"></img>
-//               601 623 1066
-//             </li>
-//             <li className="s">
-//               <img src={mailImg} className="social-media" alt="Icono de mail"></img>{" "}
-//               info@sosmejorasbogota.org
-//             </li>
-//           </ul>
-//         </div>
-//         <div className="footer-logos" style={{ display: "flex" }}>
-//           <Link to="/">
-//             <img
-//               src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
-//               alt="logo Plataforma Construyendo Civilidad"
-//               height="60px"
-//               width="60px"
-//             />
-//           </Link>
-//           <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
-//             <img
-//               src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
-//               alt="logo Sociedad de Mejoras y Ornato Bogotá"
-//               height="60px"
-//               width="60px"
-//             />
-//           </Link>
-
-
-//         </div>
-//       </div>
-//       <div
-//         className="footer-dowm"
-//         style={{
-//           heigth: "110px",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-around",
-//           padding: "0 3vw 1vh",
-//           gap: "1vw",
-//         }}
-//       >
-//         <div
-//           className="footer-social_media"
-//           style={{ display: "flex", gap: "1vw", marginBottom: "2vh" }}
-//         >
-//           <a
-//             href="https://twitter.com/mejoras_bogota"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={tw} className="social-media" alt="Twitter Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//           <a
-//             href="https://www.facebook.com/mejorasbogota/?locale=es_LA"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={fb} className="social-media" alt="Facebook Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//           <a
-//             href="https://www.youtube.com/channel/UC_mabSU7fDU3dw0TTc79l-A"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={yt} className="social-media" alt="Youtube Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//         </div>
-//         </div>
-//         <div className="footer-derechos">
-//           <article id="footer-links">
-//             <p>
-//               Sociedad de Mejoras y Ornato de Bogotá © 2023 .
-//               <br />
-//               Todos los Derechos Reservados Semillero de Innovación Geográfica
-//               GeoGeeks - Esri Colombia
-//             </p>
-//           </article>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// };
-// export default Footer;
-
-
-
 
 const Footer = () => {
-  const [linkTo, setLinkTo] = useState('/');
+  const [linkTo, setLinkTo] = useState("/");
   const [isLeftSide, setIsLeftSide] = useState(true);
 
   useEffect(() => {
     // Actualizar el destino del enlace según la posición del puntero
-    setLinkTo(isLeftSide ? '/' : '/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá');
+    setLinkTo(
+      isLeftSide
+        ? "/"
+        : "/construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá"
+    );
   }, [isLeftSide]);
   const handleMouseMove = (event) => {
     const image = event.target;
@@ -151,375 +25,100 @@ const Footer = () => {
     setIsLeftSide(true); // Restaurar al salir del área de la imagen
   };
   return (
-    <footer className="footer" >
-      <div
-        className="footer-top"
-        style={{
-          heigth: "110px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-around",
-          padding: "0.5vh 1vw 0",
-          gap: "1vw",
-        }}
-      >
-        <div className="footer-p-div" style={{ width: "50%" }}>
-          <p
-            className="footer-p"
-            style={{ padding: "1vh 1vw", lineHeight: "1.2em", }}
+    <div className="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+      <div className="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+        <div className="col-lg-3 col-md-6 mb-5">
+          <h4
+            className="text-white text-uppercase mb-4"
+            style={{letterSpacing: "3px"}}
           >
-            Nulla sit amet tortor est. Nulla non purus interdum leo pretium viverra et a leo. Sed euismod lectus eget lorem tempus, at posuere lectus fermentum. Aliquam hendrerit erat nulla, sit amet varius ligula finibus at. Proin eu eros vulputate, porttitor mauris sit amet, venenatis tortor. Quisque sed lorem ac leo sodales placerat. Sed volutpat nulla nibh, ac rutrum orci sodales vel.
+            Get In Touch
+          </h4>
+          <p>
+            <i className="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA
           </p>
-          <div
-            className="footer-dowm"
-            style={{
-              heigth: "110px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-around",
-              padding: "0 3vw 1vh",
-              gap: "1vw",
-            }}
+          <p>
+            <i className="fa fa-phone-alt mr-2"></i>+012 345 67890
+          </p>
+          <p className="m-0">
+            <i className="fa fa-envelope mr-2"></i>info@example.com
+          </p>
+        </div>
+        <div className="col-lg-3 col-md-6 mb-5">
+          <h4
+            className="text-white text-uppercase mb-4"
+            style={{letterSpacing: "3px"}}
           >
-            <div
-              className="footer-social_media"
-              style={{ display: "flex", gap: "1vw", marginBottom: "2vh" }}
-            >
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src="https://smob-storage.s3.us-east-2.amazonaws.com/x+Twitter-01.png" className="social-media" alt="Twitter" />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={fb} className="social-media" alt="Facebook" />
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={yt} className="social-media" alt="Youtube" />
-              </a>
+            Follow Us
+          </h4>
+          <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+          <div className="d-flex justify-content-start">
+            <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a className="btn btn-lg btn-outline-light btn-lg-square" href="#">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 mb-5">
+          <h4
+            className="text-white text-uppercase mb-4"
+            style={{letterSpacing: "3px"}}
+          >
+            Open Hours
+          </h4>
+          <div>
+            <h6 className="text-white text-uppercase">Monday - Friday</h6>
+            <p>8.00 AM - 8.00 PM</p>
+            <h6 className="text-white text-uppercase">Saturday - Sunday</h6>
+            <p>2.00 PM - 8.00 PM</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6 mb-5">
+          <h4
+            className="text-white text-uppercase mb-4"
+            style={{letterSpacing: "3px"}}
+          >
+            Newsletter
+          </h4>
+          <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+          <div className="w-100">
+            <div className="input-group">
+              <input
+                type="text"
+                className="form-control border-light"
+                style={{padding: "25px"}}
+                placeholder="Your Email"
+              />
+              <div className="input-group-append">
+                <button className="btn btn-primary font-weight-bold px-3">
+                  Sign Up
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="vistaC">
-          <div className="footer-info">
-            <ul style={{ listStyle: "none" }} className="footer-ul">
-              <li className="s">
-                <img src={locationImg} className="social-media" alt="Icono de ubicación" />
-                
-              </li>
-              <li className="s">
-                <img src={phoneImg} className="social-media" alt="Icono de télefono"></img>
-                
-              </li>
-              <li className="s">
-                <img src={mailImg} className="social-media" alt="Icono de mail"></img>{" "}
-                
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
-        <div className="footer-derechos">
-          <div className="footer-logos" style={{ display: "flex", justifyContent: 'center', padding: '20px' }}>
-            <Link to={linkTo} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-              <img
-                src={icon}
-                alt="logo Plataforma Construyendo Civilidad"
-                height="67px"
-                width="100%"
-                className='imgRes'
-              />
-            </Link>
-          </div>
-          <article id="footer-links" style={{ textAlign: 'center' }}>
-            <p>
-              Grupo PRISA © 2024
-            </p>
-          </article>
-        </div>
       </div>
-    </footer>
+      <div
+        className="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5"
+        style={{borderColor: 'rgba(256, 256, 256, .1) !important'}}
+      >
+        <p className="mb-2 text-white">
+          Copyright &copy;{" "}
+          <a className="font-weight-bold" href="#">
+            Grupo PRISA
+          </a>
+          . All Rights Reserved.
+        </p>
+      </div>
+    </div>
   );
 };
 export default Footer;
-
-
-
-
-
-// import React, { useState, useEffect } from 'react';
-// import yt from "../../assets/icons/yt.png";
-// import tw from "../../assets/icons/tw.png";
-// import fb from "../../assets/icons/fb.png";
-// import locationImg from "../../assets/icons/location.png";
-// import phoneImg from "../../assets/icons/phone.png";
-// import mailImg from "../../assets/icons/mail.png";
-// import { Link } from "react-router-dom";
-
-// const Footer = () => {
-//   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768);
-
-//   useEffect(() => {
-//     const handleResize = () => {
-//       setIsMobileView(window.innerWidth <= 768);
-//     };
-
-//     window.addEventListener('resize', handleResize);
-
-//     return () => {
-//       window.removeEventListener('resize', handleResize);
-//     };
-//   }, []);
-
-//   const mobileContent = (
-//     <footer className="footer" style={{ backgroundColor: "#F4F1EE" }}>
-//       <div
-//         className="footer-top"
-//         style={{
-//           heigth: "110px",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-around",
-//           padding: "0.5vh 1vw 0",
-//           gap: "1vw",
-//         }}
-//       >
-//         <div className="footer-p-div" style={{ width: "50%" }}>
-//           <p
-//             className="footer-p"
-//             style={{ padding: "0.5vh 1vw", lineHeight: "1em", }}
-//           >
-//             La Sociedad de Mejoras y Ornato de Bogotá es una entidad privada que
-//             tiene como objeto social principal el de trabajar por la civilidad
-//             fortaleciendo el centro de pensamiento y reflexión, promoviendo y
-//             fomentando la participación ciudadana, el arte, la cultura y en
-//             general, el desarrollo humano sostenible de los habitantes de la
-//             ciudad y la región. Fue creada en 1917. En la actualidad su sede se
-//             encuentra en el Parque Museo El Chicó.
-//           </p>
-//         </div>
-//         <div className="vistaC">
-//         <div className="footer-info">
-//           <ul style={{ listStyle: "none" }} className="footer-ul">
-//             <li className="s">
-//               <img src={locationImg} className="social-media" alt="Icono de ubicación"/>
-//               Cra 7 # 93 - 01
-//             </li>
-//             <li className="s">
-//               <img src={phoneImg} className="social-media" alt="Icono de télefono"></img>
-//               601 623 1066
-//             </li>
-//             <li className="s">
-//               <img src={mailImg} className="social-media" alt="Icono de mail"></img>{" "}
-//               info@sosmejorasbogota.org
-//             </li>
-//           </ul>
-//         </div>
-//         <div className="footer-logos" style={{ display: "flex" }}>
-//           <Link to="/">
-//             <img
-//               src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
-//               alt="logo Plataforma Construyendo Civilidad"
-//               height="60px"
-//               width="60px"
-//             />
-//           </Link>
-//           <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
-//             <img
-//               src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
-//               alt="logo Sociedad de Mejoras y Ornato Bogotá"
-//               height="60px"
-//               width="60px"
-//             />
-//           </Link>
-
-
-//         </div>
-//       </div>
-//       <div
-//         className="footer-dowm"
-//         style={{
-//           heigth: "110px",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-around",
-//           padding: "0 3vw 1vh",
-//           gap: "1vw",
-//         }}
-//       >
-//         <div
-//           className="footer-social_media"
-//           style={{ display: "flex", gap: "1vw", marginBottom: "2vh" }}
-//         >
-//           <a
-//             href="https://twitter.com/mejoras_bogota"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={tw} className="social-media" alt="Twitter Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//           <a
-//             href="https://www.facebook.com/mejorasbogota/?locale=es_LA"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={fb} className="social-media" alt="Facebook Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//           <a
-//             href="https://www.youtube.com/channel/UC_mabSU7fDU3dw0TTc79l-A"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={yt} className="social-media" alt="Youtube Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//         </div>
-//         </div>
-//         <div className="footer-derechos">
-//           <article id="footer-links">
-//             <p>
-//               Sociedad de Mejoras y Ornato de Bogotá © 2023 .
-//               <br />
-//               Todos los Derechos Reservados Semillero de Innovación Geográfica
-//               GeoGeeks - Esri Colombia
-//             </p>
-//           </article>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-
-//   const generalContent = (
-//     <footer className="footer" style={{ backgroundColor: "#F4F1EE" }}>
-//       <div
-//         className="footer-top"
-//         style={{
-//           heigth: "110px",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-around",
-//           padding: "0.5vh 1vw 0",
-//           gap: "1vw",
-//         }}
-//       >
-//        <div className="footer-p-div" style={{ width: "50%" }}>
-//           <p
-//             className="footer-p"
-//             style={{ padding: "0.5vh 1vw", lineHeight: "1em", }}
-//           >
-//             La Sociedad de Mejoras y Ornato de Bogotá es una entidad privada que
-//             tiene como objeto social principal el de trabajar por la civilidad
-//             fortaleciendo el centro de pensamiento y reflexión, promoviendo y
-//             fomentando la participación ciudadana, el arte, la cultura y en
-//             general, el desarrollo humano sostenible de los habitantes de la
-//             ciudad y la región. Fue creada en 1917. En la actualidad su sede se
-//             encuentra en el Parque Museo El Chicó.
-//           </p>
-//         </div>
-//         <div className="vistaC">
-//         <div className="footer-info">
-//           <ul style={{ listStyle: "none" }} className="footer-ul">
-//             <li className="s">
-//               <img src={locationImg} className="social-media" alt="Icono de ubicación"/>
-//               Cra 7 # 93 - 01
-//             </li>
-//             <li className="s">
-//               <img src={phoneImg} className="social-media" alt="Icono de télefono"></img>
-//               601 623 1066
-//             </li>
-//             <li className="s">
-//               <img src={mailImg} className="social-media" alt="Icono de mail"></img>{" "}
-//               info@sosmejorasbogota.org
-//             </li>
-//           </ul>
-//         </div>
-//         <div className="footer-logos" style={{ display: "flex" }}>
-//           <Link to="/">
-//             <img
-//               src="https://smob-storage.s3.us-east-2.amazonaws.com/Logo_Plataforma.png"
-//               alt="logo Plataforma Construyendo Civilidad"
-//               height="60px"
-//               width="60px"
-//             />
-//           </Link>
-//           <Link to="construyendo civilidad/ La responsabilidad social de la Sociedad de Mejoras y Ornato de Bogotá">
-//             <img
-//               src="https://smob-storage.s3.us-east-2.amazonaws.com/logo.png"
-//               alt="logo Sociedad de Mejoras y Ornato Bogotá"
-//               height="60px"
-//               width="60px"
-//             />
-//           </Link>
-
-
-//         </div>
-//       </div>
-//       <div
-//         className="footer-dowm"
-//         style={{
-//           heigth: "110px",
-//           display: "flex",
-//           alignItems: "center",
-//           justifyContent: "space-around",
-//           padding: "0 3vw 1vh",
-//           gap: "1vw",
-//         }}
-//       >
-//         <div
-//           className="footer-social_media"
-//           style={{ display: "flex", gap: "1vw", marginBottom: "2vh" }}
-//         >
-//           <a
-//             href="https://twitter.com/mejoras_bogota"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={tw} className="social-media" alt="Twitter Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//           <a
-//             href="https://www.facebook.com/mejorasbogota/?locale=es_LA"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={fb} className="social-media" alt="Facebook Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//           <a
-//             href="https://www.youtube.com/channel/UC_mabSU7fDU3dw0TTc79l-A"
-//             target="_blank"
-//             rel="noreferrer"
-//           >
-//             <img src={yt} className="social-media" alt="Youtube Sociedad de Mejoras Y Ornato Bogotá"/>
-//           </a>
-//         </div>
-//         </div>
-//         <div className="footer-derechos">
-//           <article id="footer-links">
-//             <p>
-//               Sociedad de Mejoras y Ornato de Bogotá © 2023 .
-//               <br />
-//               Todos los Derechos Reservados Semillero de Innovación Geográfica
-//               GeoGeeks - Esri Colombia
-//             </p>
-//           </article>
-//         </div>
-//         </div>
-//     </footer>
-//   );
-
-//   return (
-//     <>
-//     {isMobileView ? mobileContent : generalContent}
-//     </>
-//   );
-// };
-
-// export default Footer;

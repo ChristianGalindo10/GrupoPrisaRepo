@@ -33,7 +33,7 @@ function Layout({ children }) {
 
   return (
     <div className='layout' style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
-      {windowWidth < 800 ? <NvRes /> : (isPaginaPrincipal ? <NavbarPrincipal /> : <NavbarS />)}
+      <NavbarPrincipal />
       <main style={{ minHeight: 'calc((100vh/8)*6))' }} className='main-project'>
         {children}
       </main>

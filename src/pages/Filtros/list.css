@@ -1,0 +1,45 @@
+.button-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #2DADFF;
+  }
+
+  .button-item {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .button-item.active, .button-item.active:hover {
+    background-color: #2DADFF;
+  }
+
+  .button-item:hover{
+    background-color: #6c757d;
+  }
+
+  .button-item i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .button-item span {
+    font-size: 16px;
+  }
+
+  .button-item{
+    text-decoration: none;
+  }
+
+  .button-item:hover{
+    text-decoration: none;
+    color: white;
+  }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom'
-import styles from './navbarResponsive.module.css';
+// import styles from './navbarResponsive.module.css';
 
 const NavbarResponsive = () => {
 

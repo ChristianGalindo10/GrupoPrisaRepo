@@ -1,7 +1,12 @@
 @import url('../../assets/styles/colors.css');
 @import url('../../assets/styles/fonts.css');
 
-#header1 {
+
+.nav-bar{
+  background: black;
+}
+
+/* #header1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,12 +47,9 @@
   opacity: 1;
   color: #fff;
   padding: 10px 0;
-  /* Eliminamos el padding horizontal y dejamos solo el vertical */
   width: 100%;
-  /* Ocupa el 100% de ancho */
   z-index: 999;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .nav-area {
@@ -131,7 +133,6 @@
     0 4px 6px -2px rgba(71, 63, 79, 0.16);
   font-size: calc(0.1px + 0.8vw);
   z-index: 9999;
-  /* min-width: 7rem; */
   width: 11rem;
    padding: 0.5rem 0;
   list-style: none;
@@ -158,4 +159,4 @@
 #a a{
   color: #000;
   text-decoration: none;
-}
+} */
