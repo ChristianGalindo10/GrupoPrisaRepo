@@ -13,6 +13,26 @@
     background-size: cover;
 }
 
+p, span, p.c_d, span.c_a_l, span.c_m_p_a{
+  color: #FDFDFD;
+}
+
+.c_a a{
+  color: #FDFDFD
+}
+
+.b_col h1, .b_col h2, .c_h h2{
+  color: #adfd00;
+}
+
+span.b_h_t{
+  color: #2DADFF;
+}
+
+h1,h2{
+  color: #2DADFF;
+}
+
 
 .button-active {
     background-color: #9D5929;

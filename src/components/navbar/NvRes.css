@@ -130,14 +130,18 @@
   .header-title h1 {
     margin: 0;
     font-size: 3.2rem;
-    color: #333;
+    color:  #2DADFF;
   }
   
 
 
   
   .header-title h1 {
-    color: #333; /* Ajusta el color del texto en el encabezado desplazado */
+    color: #2DADFF
+  }
+
+  #header1{
+    background: black;
   }
 
   #header {

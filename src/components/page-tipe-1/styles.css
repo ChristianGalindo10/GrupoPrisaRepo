@@ -9,13 +9,17 @@
 }
 
 .title_page {
-    color: var(--clr-primary);
+    color: #2DADFF;
     font-size: var(--font-size-1);
     font-weight: bold;
     display: flex;
     font-family: var(--font-principal);
     z-index: 9;
     margin: 2rem;
+}
+
+h3.title_page{
+    color: #adfd00;
 }
 
 .content_page {
