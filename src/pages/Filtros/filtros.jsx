@@ -252,103 +252,6 @@ const FiltrosPage = () => {
                       ></iframe>
                     </div>
                     <div className="filterStats">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Animi ea, inventore quos accusantium culpa aliquid
-                        fugiat itaque nulla tempore alias? Eius illo accusamus
-                        reprehenderit perspiciatis recusandae officiis, omnis
-                        est repellendus.
-                      </p>
-                      <br />
-                      <ul className="button-list">
-                        <li
-                          onClick={() => {
-                            handleChange("hidrocarburos");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "hidrocarburos" ? "active" : "")
-                            }
-                          >
-                            <i className="fas fa-map-marker-alt"></i>
-                            <span>Hidrocarburos</span>
-                          </a>
-                        </li>
-                        <li
-                          onClick={() => {
-                            handleChange("redes_electricas");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "redes_electricas" ? "active" : "")
-                            }
-                          >
-                            <i className="fas fa-info-circle"></i>
-                            <span>Redes eléctricas</span>
-                          </a>
-                        </li>
-                        <li
-                          onClick={() => {
-                            handleChange("hidroelectricas");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "hidroelectricas" ? "active" : "")
-                            }
-                          >
-                            <i className="fas fa-phone-alt">
-                              <img src={agua_icon}/>
-                            </i>
-                            <span>Hidroeléctricas</span>
-                          </a>
-                        </li>
-                        <li
-                          onClick={() => {
-                            handleChange("poliductos");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "poliductos" ? "active" : "")
-                            }
-                          >
-                            <i className="fas fa-cogs"></i>
-                            <span>Poliductos</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <div className="filterMap">
-                      <iframe
-                        src={
-                          "https://mercadostech.maps.arcgis.com/apps/dashboards/a6f1d95a3fe84a33b2e41db484e3a0e6#depto=" +
-                          dep +
-                          "&recurso=" +
-                          proyecto
-                        }
-                        className="content_full_page2"
-                        style={{ width: "100%" }}
-                      ></iframe>
-                    </div>
-                    <div className="filterStats">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Animi ea, inventore quos accusantium culpa aliquid
-                        fugiat itaque nulla tempore alias? Eius illo accusamus
-                        reprehenderit perspiciatis recusandae officiis, omnis
-                        est repellendus.
-                      </p>
-                      <br />
                       <ul className="button-list">
                         <li
                           onClick={() => {
@@ -413,6 +316,105 @@ const FiltrosPage = () => {
                           </a>
                         </li>
                       </ul>
+                      <br />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi ea, inventore quos accusantium culpa aliquid
+                        fugiat itaque nulla tempore alias? Eius illo accusamus
+                        reprehenderit perspiciatis recusandae officiis, omnis
+                        est repellendus.
+                      </p>
+                      
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="filterMap">
+                      <iframe
+                        src={
+                          "https://mercadostech.maps.arcgis.com/apps/dashboards/a6f1d95a3fe84a33b2e41db484e3a0e6#depto=" +
+                          dep +
+                          "&recurso=" +
+                          proyecto
+                        }
+                        className="content_full_page2"
+                        style={{ width: "100%" }}
+                      ></iframe>
+                    </div>
+                    <div className="filterStats">
+                      <ul className="button-list">
+                        <li
+                          onClick={() => {
+                            handleChange("hidrocarburos");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "hidrocarburos" ? "active" : "")
+                            }
+                          >
+                            <i>
+                              <img src={agua_icon} style={{width: '30px'}}/>
+                            </i>
+                            <span>Hidrocarburos</span>
+                          </a>
+                        </li>
+                        <li
+                          onClick={() => {
+                            handleChange("redes_electricas");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "redes_electricas" ? "active" : "")
+                            }
+                          >
+                            <i className="fas fa-info-circle"></i>
+                            <span>Redes eléctricas</span>
+                          </a>
+                        </li>
+                        <li
+                          onClick={() => {
+                            handleChange("hidroelectricas");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "hidroelectricas" ? "active" : "")
+                            }
+                          >
+                            <i className="fas fa-phone-alt"></i>
+                            <span>Hidroeléctricas</span>
+                          </a>
+                        </li>
+                        <li
+                          onClick={() => {
+                            handleChange("poliductos");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "poliductos" ? "active" : "")
+                            }
+                          >
+                            <i className="fas fa-cogs"></i>
+                            <span>Poliductos</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <br />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi ea, inventore quos accusantium culpa aliquid
+                        fugiat itaque nulla tempore alias? Eius illo accusamus
+                        reprehenderit perspiciatis recusandae officiis, omnis
+                        est repellendus.
+                      </p>
+                      
                     </div>
                   </>
                 )}
@@ -430,77 +432,80 @@ const FiltrosPage = () => {
                   ></iframe>
                 </div>
                 <div className="filterStats">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Animi ea, inventore quos accusantium culpa aliquid fugiat
-                    itaque nulla tempore alias? Eius illo accusamus
-                    reprehenderit perspiciatis recusandae officiis, omnis est
-                    repellendus.
-                  </p>
-                  <br />
-                  <ul className="button-list">
-                    <li
-                      onClick={() => {
-                        handleChange("hidrocarburos");
-                      }}
-                    >
-                      <a
-                        className={
-                          "button-item " +
-                          (proyecto == "hidrocarburos" ? "active" : "")
-                        }
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Hidrocarburos</span>
-                      </a>
-                    </li>
-                    <li
-                      onClick={() => {
-                        handleChange("redes_electricas");
-                      }}
-                    >
-                      <a
-                        className={
-                          "button-item " +
-                          (proyecto == "redes_electricas" ? "active" : "")
-                        }
-                      >
-                        <i className="fas fa-info-circle"></i>
-                        <span>Redes eléctricas</span>
-                      </a>
-                    </li>
-                    <li
-                      onClick={() => {
-                        handleChange("hidroelectricas");
-                      }}
-                    >
-                      <a
-                        className={
-                          "button-item " +
-                          (proyecto == "hidroelectricas" ? "active" : "")
-                        }
-                      >
-                        <i className="fas fa-phone-alt"></i>
-                        <span>Hidroeléctricas</span>
-                      </a>
-                    </li>
-                    <li
-                      onClick={() => {
-                        handleChange("poliductos");
-                      }}
-                    >
-                      <a
-                        className={
-                          "button-item " +
-                          (proyecto == "poliductos" ? "active" : "")
-                        }
-                      >
-                        <i className="fas fa-cogs"></i>
-                        <span>Poliductos</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                      <ul className="button-list">
+                        <li
+                          onClick={() => {
+                            handleChange("hidrocarburos");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "hidrocarburos" ? "active" : "")
+                            }
+                          >
+                            <i>
+                              <img src={agua_icon} style={{width: '30px'}}/>
+                            </i>
+                            <span>Hidrocarburos</span>
+                          </a>
+                        </li>
+                        <li
+                          onClick={() => {
+                            handleChange("redes_electricas");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "redes_electricas" ? "active" : "")
+                            }
+                          >
+                            <i className="fas fa-info-circle"></i>
+                            <span>Redes eléctricas</span>
+                          </a>
+                        </li>
+                        <li
+                          onClick={() => {
+                            handleChange("hidroelectricas");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "hidroelectricas" ? "active" : "")
+                            }
+                          >
+                            <i className="fas fa-phone-alt"></i>
+                            <span>Hidroeléctricas</span>
+                          </a>
+                        </li>
+                        <li
+                          onClick={() => {
+                            handleChange("poliductos");
+                          }}
+                        >
+                          <a
+                            className={
+                              "button-item " +
+                              (proyecto == "poliductos" ? "active" : "")
+                            }
+                          >
+                            <i className="fas fa-cogs"></i>
+                            <span>Poliductos</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <br />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi ea, inventore quos accusantium culpa aliquid
+                        fugiat itaque nulla tempore alias? Eius illo accusamus
+                        reprehenderit perspiciatis recusandae officiis, omnis
+                        est repellendus.
+                      </p>
+                      
+                    </div>
               </>
             )}
           </>

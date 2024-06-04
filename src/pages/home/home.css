@@ -52,6 +52,7 @@
 .home-main-background img {
   height: 95vh;
   width: 100%;
+  filter: brightness(0.5)
 }
 
 .home-content {
@@ -297,6 +298,11 @@
 }
 
 @media only screen and (max-width: 960px) {
+
+  .home-main-title-overlay{
+    top: 17%;
+  }
+  
   .bienvenido {
     line-height: 1em !important;
     /*: 3.2vh !important;*/

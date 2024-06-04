@@ -49,9 +49,16 @@ const Home = () => {
   return (
     <div className="Home" id="Home">
       <div className="home-main-background">
-        <div className="home-main-title-overlay">
-          {/* <Link style={{textDecoration: 'none'}} to={gif[gifI]?.link_url}><p className="bienvenido"><span style={{ fontWeight: 'bold' }}>Caribe Potencia Energética</span></p></Link> */}
-        </div>
+        <Link to={gif[gifI]?.link_url}>
+          <div className="home-main-title-overlay">
+            <h2 className="display-2 text-white m-0">
+              Caribe potencia energética
+            </h2>
+            <br />
+            <h2 class="text-white m-0">* Colombia 2024 *</h2>
+            {/* <Link style={{textDecoration: 'none'}} to={gif[gifI]?.link_url}><p className="bienvenido"><span style={{ fontWeight: 'bold' }}>Caribe Potencia Energética</span></p></Link> */}
+          </div>
+        </Link>
         <Link style={{ width: "100%" }} to={gif[gifI]?.link_url}>
           <img src={gif[gifI]?.img_url} alt="plano escaneado" />
         </Link>
@@ -116,7 +123,7 @@ const Home = () => {
           <div className="section-title">
             <h4
               className="text-primary text-uppercase"
-              style={{letterSpacing: "5px"}}
+              style={{ letterSpacing: "5px" }}
             >
               Noticias
             </h4>
@@ -155,7 +162,8 @@ const Home = () => {
                 </div>
                 <div className="col-sm-7">
                   <h4>
-                    <i className="fa fa-coffee service-icon"></i>Fresh Coffee Beans
+                    <i className="fa fa-coffee service-icon"></i>Fresh Coffee
+                    Beans
                   </h4>
                   <p className="m-0">
                     Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea
@@ -176,7 +184,8 @@ const Home = () => {
                 </div>
                 <div className="col-sm-7">
                   <h4>
-                    <i className="fa fa-award service-icon"></i>Best Quality Coffee
+                    <i className="fa fa-award service-icon"></i>Best Quality
+                    Coffee
                   </h4>
                   <p className="m-0">
                     Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea
@@ -197,7 +206,8 @@ const Home = () => {
                 </div>
                 <div className="col-sm-7">
                   <h4>
-                    <i className="fa fa-table service-icon"></i>Online Table Booking
+                    <i className="fa fa-table service-icon"></i>Online Table
+                    Booking
                   </h4>
                   <p className="m-0">
                     Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea
