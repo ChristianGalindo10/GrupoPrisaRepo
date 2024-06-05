@@ -11,15 +11,15 @@ const energiaCaribe = () => {
   const energias = [
     {
       label: 'Hidrocarburos',
-      id: 'hidrocarburos'
+      id: 'HIDROCARBUROS'
     },
     {
       label: 'Redes eléctricas',
-      id: 'redes_electricas'
+      id: 'Redes eléctricas'
     },
     {
       label: 'Hidroeléctricas',
-      id: 'hidroelectricas'
+      id: 'Hidroeléctricas'
     },
     {
       label: 'Poliductos',
@@ -45,7 +45,7 @@ const energiaCaribe = () => {
             <div className="filterMap" style={{width: '100%'}}>
               <iframe
                 src={
-                  "https://mercadostech.maps.arcgis.com/apps/dashboards/a6f1d95a3fe84a33b2e41db484e3a0e6#recurso=" +
+                  "https://mercadostech.maps.arcgis.com/apps/dashboards/df52575dd13c4eeb825ccf21374a31fb#p3=" +
                   proyecto
                 }
                 className="content_full_page2"

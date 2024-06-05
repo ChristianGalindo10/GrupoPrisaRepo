@@ -15,7 +15,7 @@ const TiposEnergia = () => {
           </div>
           <div className="row">
             <div className="col-lg-6 mb-5">
-              <Link style={{ textDecoration: "none" }} to="/energia/hidrocarburos">
+              <Link style={{ textDecoration: "none" }} to="/energia/HIDROCARBUROS">
                 <div className="row align-items-center">
                   <div className="col-sm-5">
                     <img
@@ -38,7 +38,7 @@ const TiposEnergia = () => {
               </Link>
             </div>
             <div className="col-lg-6 mb-5">
-              <Link style={{ textDecoration: "none" }} to="/energia/redes_electricas">
+              <Link style={{ textDecoration: "none" }} to="/energia/Redes eléctricas">
                 <div className="row align-items-center">
                   <div className="col-sm-5">
                     <img
@@ -61,7 +61,7 @@ const TiposEnergia = () => {
               </Link>
             </div>
             <div className="col-lg-6 mb-5">
-              <Link style={{ textDecoration: "none" }} to="/energia/hidroelectricas">
+              <Link style={{ textDecoration: "none" }} to="/energia/Hidroeléctricas">
                 <div className="row align-items-center">
                   <div className="col-sm-5">
                     <img

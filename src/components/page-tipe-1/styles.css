@@ -45,6 +45,7 @@ h3.title_page{
 
 .filterStats{
     width: 30%;
+    height: 70vh;
 }
 
 #filtersSection{
@@ -67,6 +68,7 @@ h3.title_page{
     
     .filterStats{
         width: 100%;
+        height: 70vh;
     }
 
     #filtersSection{
