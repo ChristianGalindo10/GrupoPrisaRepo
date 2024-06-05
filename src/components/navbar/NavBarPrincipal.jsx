@@ -40,7 +40,7 @@ const NavbarPrincipal = () => {
               <NavLink to="/" className="nav-item nav-link" activeClassName="active">Inicio</NavLink>
               <NavLink to="/departamentos" className="nav-item nav-link" activeClassName="active">Departamentos</NavLink>
               <NavLink to="/tiposEnergia" className="nav-item nav-link" activeClassName="active">Tipos de energía</NavLink>
-              <NavLink to="/mapas" className="nav-item nav-link" activeClassName="active">Mapas</NavLink>
+              <NavLink to="/mapas/general" className="nav-item nav-link" activeClassName="active">Mapas</NavLink>
               {/* <a href="index.html" className="nav-item nav-link active">
                 Home
               </a>

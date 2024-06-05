@@ -20,7 +20,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" Component={Home} />
           <Route exact path="/tiposEnergia" Component={TiposEnergia} />
-          <Route exact path="/mapas" Component={Mapas} />
+          <Route exact path="/mapas/:map" Component={Mapas} />
           <Route exact path="/departamentos" Component={DepartamentosPage} />
           <Route exact path="/general" Component={Equipamientos} />
           <Route exact path="/proyectos" Component={Proyectos} />

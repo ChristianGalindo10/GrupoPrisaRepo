@@ -370,13 +370,13 @@ const FiltrosPage = () => {
                         </li>
                         <li
                           onClick={() => {
-                            handleChange("hidroeléctricas");
+                            handleChange("Hidroeléctricas");
                           }}
                         >
                           <a
                             className={
                               "button-item " +
-                              (proyecto == "hidroeléctricas" ? "active" : "")
+                              (proyecto == "Hidroeléctricas" ? "active" : "")
                             }
                           >
                             <i>

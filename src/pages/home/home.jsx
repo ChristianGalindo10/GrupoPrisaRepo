@@ -7,19 +7,24 @@ import region from "../../assets/icons/region-caribe.jpg";
 import Lanzadores from "../../components/lanzadores/lanzadores";
 import proyectosBanner from "../../assets/icons/proyectosBanner.png";
 import potencialBanner from "../../assets/icons/potencialBanner.png";
+import generalBanner from "../../assets/icons/generalBanner.png";
 import News from "../../components/news/news";
 import Multimedia from "../../components/multimedia/multimedia";
 
 const Home = () => {
   const gif = [
     {
-      link_url: "/potencialDepartamentos",
+      link_url: "/mapas/potencial",
       img_url: potencialBanner,
     },
     {
-      link_url: "/filtros",
+      link_url: "/mapas/proyectos",
       img_url: proyectosBanner,
     },
+    {
+      link_url: "/mapas/general",
+      img_url: generalBanner,
+    }
   ];
   const [gifI, setGifI] = useState(0);
 
@@ -30,7 +35,7 @@ const Home = () => {
     const gifInterval = setInterval(() => {
       // let i = gifI
 
-      if (i <= 1) {
+      if (i <= 2) {
         setGifI(i);
         i = i + 1;
       } else {

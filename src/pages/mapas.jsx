@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 
 import "./home/home.css";
-const Mapas = () => {
-  const [mapa, setMapa] = useState("general");
+const Mapas = () => { 
+  const { map } = useParams();
+  console.log(map)
+  const [mapa, setMapa] = useState(map);
 
   const onChange = (event) => {
     const value = event.target.value;
@@ -25,13 +28,13 @@ const Mapas = () => {
           aria-label="Default select example"
           onChange={onChange}
         >
-          <option selected value="general">
+          <option selected={mapa == "general"} value="general">
             General
           </option>
-          <option value="proyectos">Proyectos</option>
-          <option value="potencial">Potencial</option>
+          <option selected={mapa == "proyectos"} value="proyectos">Proyectos</option>
+          <option selected={mapa == "potencial"} value="potencial">Potencial</option>
         </select>
-
+        {console.log(map)}
         {mapa == "general" && (
           <>
             <h3 className="title_page">General</h3>
