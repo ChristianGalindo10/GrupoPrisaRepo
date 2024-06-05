@@ -3,6 +3,9 @@ import Select from "react-select";
 import { useParams } from "react-router-dom";
 import "./list.css";
 import agua_icon from "../../assets/icons/agua_icon.svg";
+import redes_electricas from "../../assets/icons/electricidad_icon.svg";
+import mineria from "../../assets/icons/mineria_icon.svg";
+import bomba from "../../assets/icons/bomba_icon.svg";
 
 const departamentos = [
   {
@@ -45,12 +48,11 @@ const FiltrosPage = () => {
   const [proyecto, setProyecto] = useState("");
 
   const handleChange = (selected) => {
-    if(proyecto == selected){
-        setProyecto("");
-    }else{
-        setProyecto(selected);
+    if (proyecto == selected) {
+      setProyecto("");
+    } else {
+      setProyecto(selected);
     }
-    
   };
   const [municipio, setMunicipio] = useState("");
   const onChange2 = (event) => {
@@ -72,28 +74,10 @@ const FiltrosPage = () => {
             className="text-primary text-uppercase"
             style={{ letterSpacing: "5px" }}
           >
-            Proyectos energéticos {foundObject ? foundObject.label : 'caribe'}
+            Proyectos energéticos {foundObject ? foundObject.label : "caribe"}
           </h4>
         </div>
         <div id="filtersSection">
-          {/* <select className="form-select filter-select" aria-label="Default select example" onChange={onChange}>
-                    <option selected value="">SELECCIONE UN DEPARTAMENTO</option>
-                    <option value="8">ATLÁNTICO</option>
-                    <option value="13">BOLÍVAR</option>
-                    <option value="20">CESAR</option>
-                    <option value="23">CÓRDOBA</option>
-                    <option value="44">LA GUAJIRA</option>
-                    <option value="47">MAGDALENA</option>
-                    <option value="70">SUCRE</option>
-                    <option value="88">ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA</option>
-                </select>
-                {
-                    departamento == "" && (
-                        <select className="form-select filter-select" aria-label="Default select example" onChange={onChange2}>
-                            <option disabled selected value="">SELECCIONE UN DEPARTAMENTO</option>
-                        </select>
-                    )
-                } */}
           {dep == "8" && (
             <select
               className="form-select filter-select"
@@ -265,7 +249,7 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                              <img src={agua_icon} style={{width: '30px'}}/>
+                              <img src={bomba} style={{ width: "30px" }} />
                             </i>
                             <span>Hidrocarburos</span>
                           </a>
@@ -281,7 +265,9 @@ const FiltrosPage = () => {
                               (proyecto == "redes_electricas" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-info-circle"></i>
+                            <i>
+                              <img src={redes_electricas} style={{ width: "30px" }} />
+                            </i>
                             <span>Redes eléctricas</span>
                           </a>
                         </li>
@@ -296,7 +282,9 @@ const FiltrosPage = () => {
                               (proyecto == "hidroelectricas" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-phone-alt"></i>
+                            <i>
+                              <img src={agua_icon} style={{ width: "30px" }} />
+                            </i>
                             <span>Hidroeléctricas</span>
                           </a>
                         </li>
@@ -311,7 +299,9 @@ const FiltrosPage = () => {
                               (proyecto == "poliductos" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-cogs"></i>
+                            <i>
+                            <img src={mineria} style={{ width: "30px" }} />
+                            </i>
                             <span>Poliductos</span>
                           </a>
                         </li>
@@ -324,7 +314,6 @@ const FiltrosPage = () => {
                         reprehenderit perspiciatis recusandae officiis, omnis
                         est repellendus.
                       </p>
-                      
                     </div>
                   </>
                 ) : (
@@ -355,7 +344,7 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                              <img src={agua_icon} style={{width: '30px'}}/>
+                              <img src={bomba} style={{ width: "30px" }} />
                             </i>
                             <span>Hidrocarburos</span>
                           </a>
@@ -371,7 +360,9 @@ const FiltrosPage = () => {
                               (proyecto == "redes_electricas" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-info-circle"></i>
+                            <i>
+                              <img src={redes_electricas} style={{ width: "30px" }} />
+                            </i>
                             <span>Redes eléctricas</span>
                           </a>
                         </li>
@@ -386,7 +377,9 @@ const FiltrosPage = () => {
                               (proyecto == "hidroelectricas" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-phone-alt"></i>
+                            <i>
+                              <img src={agua_icon} style={{ width: "30px" }} />
+                            </i>
                             <span>Hidroeléctricas</span>
                           </a>
                         </li>
@@ -401,7 +394,9 @@ const FiltrosPage = () => {
                               (proyecto == "poliductos" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-cogs"></i>
+                            <i>
+                            <img src={mineria} style={{ width: "30px" }} />
+                            </i>
                             <span>Poliductos</span>
                           </a>
                         </li>
@@ -414,7 +409,6 @@ const FiltrosPage = () => {
                         reprehenderit perspiciatis recusandae officiis, omnis
                         est repellendus.
                       </p>
-                      
                     </div>
                   </>
                 )}
@@ -445,7 +439,7 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                              <img src={agua_icon} style={{width: '30px'}}/>
+                              <img src={bomba} style={{ width: "30px" }} />
                             </i>
                             <span>Hidrocarburos</span>
                           </a>
@@ -461,7 +455,9 @@ const FiltrosPage = () => {
                               (proyecto == "redes_electricas" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-info-circle"></i>
+                            <i>
+                              <img src={redes_electricas} style={{ width: "30px" }} />
+                            </i>
                             <span>Redes eléctricas</span>
                           </a>
                         </li>
@@ -476,7 +472,9 @@ const FiltrosPage = () => {
                               (proyecto == "hidroelectricas" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-phone-alt"></i>
+                            <i>
+                              <img src={agua_icon} style={{ width: "30px" }} />
+                            </i>
                             <span>Hidroeléctricas</span>
                           </a>
                         </li>
@@ -491,7 +489,9 @@ const FiltrosPage = () => {
                               (proyecto == "poliductos" ? "active" : "")
                             }
                           >
-                            <i className="fas fa-cogs"></i>
+                            <i>
+                            <img src={mineria} style={{ width: "30px" }} />
+                            </i>
                             <span>Poliductos</span>
                           </a>
                         </li>
@@ -504,7 +504,6 @@ const FiltrosPage = () => {
                         reprehenderit perspiciatis recusandae officiis, omnis
                         est repellendus.
                       </p>
-                      
                     </div>
               </>
             )}
