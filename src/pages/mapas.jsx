@@ -13,16 +13,12 @@ const Mapas = () => {
   };
 
   return (
-    <div className="container-fluid pt-5">
-      <div className="container">
-        <div className="section-title">
-          <h4
-            className="text-primary text-uppercase"
-            style={{ letterSpacing: "5px" }}
+      <div className="home-content">
+          <h3
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
           >
             Galería de mapas
-          </h4>
-        </div>
+          </h3>
         <select
           className="form-select filter-select"
           aria-label="Default select example"
@@ -34,10 +30,10 @@ const Mapas = () => {
           <option selected={mapa == "proyectos"} value="proyectos">Proyectos</option>
           <option selected={mapa == "potencial"} value="potencial">Potencial</option>
         </select>
-        {console.log(map)}
+        <br/>
+        <br/>
         {mapa == "general" && (
           <>
-            <h3 className="title_page">General</h3>
             <section className="content_section">
               <iframe
                 src={
@@ -51,7 +47,6 @@ const Mapas = () => {
 
         {mapa == "proyectos" && (
           <>
-            <h3 className="title_page">Proyectos</h3>
             <section className="content_section">
               <iframe
                 src={
@@ -65,7 +60,6 @@ const Mapas = () => {
 
         {mapa == "potencial" && (
           <>
-            <h3 className="title_page">Potencial</h3>
             <section className="content_section">
               <iframe
                 src={
@@ -77,7 +71,6 @@ const Mapas = () => {
           </>
         )}
       </div>
-    </div>
   );
 };
 export default Mapas;
