@@ -363,7 +363,7 @@ const Home = () => {
         <br />
         <br />
         <br />
-        <Link to="/mapas" id="galeriaBtn">
+        <Link to="/mapas/general" id="galeriaBtn">
           ¡Visita nuestra galería de mapas!
         </Link>
         <br />

@@ -4615,6 +4615,8 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 500 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -9808,12 +9810,45 @@ h6,
   z-index: 9;
 }
 
+#nav-menu, #ul-menu{
+  margin: 0 auto;
+  background: #193559;
+}
+
+#redes-mobile{
+  display: none;
+}
+
 @media (max-width: 991.98px) {
   .container-fluid.nav-bar, .nav-bar.container-sm, .nav-bar.container-md, .nav-bar.container-lg, .nav-bar.container-xl {
     position: relative;
-    background: black;
+    background: white;
   }
+
+  #logos-nav{
+    justify-content: center;
+  }
+
+  #nav-menu, #ul-menu{
+    margin: 0 0 0 auto;
+  }
+
+  #nav-images{
+    display: none;
+  }
+
+  #redes-mobile{
+    display: flex;
+  }
+
+  #ul-menu a:nth-child(n+8){
+    display: none;
+  }
+
+
 }
+
+
 
 .navbar-dark .navbar-nav .nav-link {
   padding-left: 15px;
@@ -9942,4 +9977,20 @@ h6,
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 1160px) {
+  :nth-child(n+8 of .nav-item.nav-link){
+    width: 31px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  #ul-menu{
+    padding-left: 0 !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    padding-right: 0;
+}
 }
