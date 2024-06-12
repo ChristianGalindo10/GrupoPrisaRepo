@@ -9819,6 +9819,23 @@ h6,
   display: none;
 }
 
+
+
+@media (min-width: 992px) {
+  #ul-menu{
+    height: 60px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+#logos-nav{
+  height: 150px;
+}
+
 @media (max-width: 991.98px) {
   .container-fluid.nav-bar, .nav-bar.container-sm, .nav-bar.container-md, .nav-bar.container-lg, .nav-bar.container-xl {
     position: relative;
@@ -9827,6 +9844,8 @@ h6,
 
   #logos-nav{
     justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   #nav-menu, #ul-menu{
@@ -9847,8 +9866,6 @@ h6,
 
 
 }
-
-
 
 .navbar-dark .navbar-nav .nav-link {
   padding-left: 15px;
@@ -9973,7 +9990,7 @@ h6,
 .page-header,
 .offer,
 .footer {
-  background: black;
+  background: white;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
