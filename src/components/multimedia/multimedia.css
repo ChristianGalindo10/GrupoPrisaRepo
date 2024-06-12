@@ -1,6 +1,6 @@
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
     padding: 20px;
     max-width: 1200px;
@@ -10,7 +10,7 @@
 .gallery-item {
     overflow: hidden;
     border: 2px solid #ccc;
-    height: 300px;
+    height: 200px;
 }
 
 .gallery-item img {

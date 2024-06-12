@@ -15,6 +15,8 @@ import facebook from "../../assets/icons/icon_facebook.png";
 import instagram from "../../assets/icons/icon_instagram.png";
 import linkedin from "../../assets/icons/icon_linkedin.png";
 import youtube from "../../assets/icons/icon_youtube.png";
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.ScrollLink;
 
 const NavbarPrincipal = () => {
   return (
@@ -31,10 +33,13 @@ const NavbarPrincipal = () => {
             </nav> */}
       <div className="container-fluid p-0 nav-bar">
         <nav className="navbar navbar-expand-lg bg" id="logos-nav">
-          <a href="index.html" className="navbar-brand px-lg-4 m-0">
-            {/* <h1 className="m-0 display-4 text-uppercase text-white">PRISA</h1> */}
-            <img src={logoCaribe} />
-          </a>
+        <NavLink
+                to="/"
+                className="navbar-brand px-lg-4 m-0"
+                activeClassName="active"
+              >
+                <img src={logoCaribe} />
+              </NavLink>
           <div
             className="collapse navbar-collapse justify-content-between"
             id="nav-images"
@@ -48,28 +53,28 @@ const NavbarPrincipal = () => {
                 <img src={celsia} />
               </NavLink>
               <NavLink
-                to="/departamentos"
+                to="/"
                 className="nav-item nav-link"
                 activeClassName="active"
               >
                 <img src={ecopetrol} />
               </NavLink>
               <NavLink
-                to="/tiposEnergia"
+                to="/"
                 className="nav-item nav-link"
                 activeClassName="active"
               >
                 <img src={enel} />
               </NavLink>
               <NavLink
-                to="/mapas/general"
+                to="/"
                 className="nav-item nav-link"
                 activeClassName="active"
               >
                 <img src={epm} />
               </NavLink>
               <NavLink
-                to="/mapas/general"
+                to="/"
                 className="nav-item nav-link"
                 activeClassName="active"
               >
@@ -102,17 +107,39 @@ const NavbarPrincipal = () => {
               >
                 INICIO
               </NavLink>
+              {/* <ScrollLink
+                to="caribe-section"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="some-class"
+                activeClass="active"
+              >
+                Link Text Goes Here
+              </ScrollLink> */}
               <NavLink
-                to="/departamentos"
+                to="/"
                 className="nav-item nav-link"
                 activeClassName="active"
+                onClick={() => {
+                  setTimeout(() => { 
+                    const anchor = document.querySelector('#caribe-section')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'center' }) 
+                  }, 100);
+                }}
               >
                 CARIBE
               </NavLink>
               <NavLink
-                to="/tiposEnergia"
+                to="/"
                 className="nav-item nav-link"
-                activeClassName="active"
+                activeClassName="active2"
+                onClick={() => {
+                  setTimeout(() => { 
+                    const anchor = document.querySelector('#departamentos-section')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'center' }) 
+                  }, 100);
+                }}
               >
                 DEPARTAMENTOS
               </NavLink>

@@ -67,16 +67,10 @@ const FiltrosPage = () => {
   useEffect(() => {}, [municipio, proyecto]);
 
   return (
-    <div className="container-fluid pt-5">
-      <div className="container">
-        <div className="section-title">
-          <h4
-            className="text-primary text-uppercase"
-            style={{ letterSpacing: "5px" }}
-          >
+    <div className="home-content">
+          <h3 style={{textAlign: 'center', margin: '50px auto', width: '50%'}}>
             Proyectos energéticos {foundObject ? foundObject.label : "caribe"}
-          </h4>
-        </div>
+          </h3>
         <div id="filtersSection">
           {dep == "8" && (
             <select
@@ -266,7 +260,10 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                              <img src={redes_electricas} style={{ width: "30px" }} />
+                              <img
+                                src={redes_electricas}
+                                style={{ width: "30px" }}
+                              />
                             </i>
                             <span>Redes eléctricas</span>
                           </a>
@@ -300,15 +297,20 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                            <img src={mineria} style={{ width: "30px" }} />
+                              <img src={mineria} style={{ width: "30px" }} />
                             </i>
                             <span>Poliductos</span>
                           </a>
                         </li>
                       </ul>
                       <br />
-                      <iframe src={"https://mercadostech.maps.arcgis.com/apps/dashboards/d47ba40f3dfc4940acd9916ed5fdd7c2#po1=" + municipio} style={{width: '100%', height: '45%'}}>
-                      </iframe>
+                      <iframe
+                        src={
+                          "https://mercadostech.maps.arcgis.com/apps/dashboards/d47ba40f3dfc4940acd9916ed5fdd7c2#po1=" +
+                          municipio
+                        }
+                        style={{ width: "100%", height: "45%" }}
+                      ></iframe>
                       {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Animi ea, inventore quos accusantium culpa aliquid
@@ -363,7 +365,10 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                              <img src={redes_electricas} style={{ width: "30px" }} />
+                              <img
+                                src={redes_electricas}
+                                style={{ width: "30px" }}
+                              />
                             </i>
                             <span>Redes eléctricas</span>
                           </a>
@@ -397,15 +402,20 @@ const FiltrosPage = () => {
                             }
                           >
                             <i>
-                            <img src={mineria} style={{ width: "30px" }} />
+                              <img src={mineria} style={{ width: "30px" }} />
                             </i>
                             <span>Poliductos</span>
                           </a>
                         </li>
                       </ul>
                       <br />
-                      <iframe src={"https://mercadostech.maps.arcgis.com/apps/dashboards/d47ba40f3dfc4940acd9916ed5fdd7c2#po2=" + dep} style={{width: '100%', height: '45%'}}>
-                      </iframe>
+                      <iframe
+                        src={
+                          "https://mercadostech.maps.arcgis.com/apps/dashboards/d47ba40f3dfc4940acd9916ed5fdd7c2#po2=" +
+                          dep
+                        }
+                        style={{ width: "100%", height: "45%" }}
+                      ></iframe>
                       {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Animi ea, inventore quos accusantium culpa aliquid
@@ -430,92 +440,96 @@ const FiltrosPage = () => {
                   ></iframe>
                 </div>
                 <div className="filterStats">
-                      <ul className="button-list">
-                        <li
-                          onClick={() => {
-                            handleChange("HIDROCARBUROS");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "HIDROCARBUROS" ? "active" : "")
-                            }
-                          >
-                            <i>
-                              <img src={bomba} style={{ width: "30px" }} />
-                            </i>
-                            <span>Hidrocarburos</span>
-                          </a>
-                        </li>
-                        <li
-                          onClick={() => {
-                            handleChange("Redes eléctricas");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "Redes eléctricas" ? "active" : "")
-                            }
-                          >
-                            <i>
-                              <img src={redes_electricas} style={{ width: "30px" }} />
-                            </i>
-                            <span>Redes eléctricas</span>
-                          </a>
-                        </li>
-                        <li
-                          onClick={() => {
-                            handleChange("Hidroeléctricas");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "Hidroeléctricas" ? "active" : "")
-                            }
-                          >
-                            <i>
-                              <img src={agua_icon} style={{ width: "30px" }} />
-                            </i>
-                            <span>Hidroeléctricas</span>
-                          </a>
-                        </li>
-                        <li
-                          onClick={() => {
-                            handleChange("poliductos");
-                          }}
-                        >
-                          <a
-                            className={
-                              "button-item " +
-                              (proyecto == "poliductos" ? "active" : "")
-                            }
-                          >
-                            <i>
-                            <img src={mineria} style={{ width: "30px" }} />
-                            </i>
-                            <span>Poliductos</span>
-                          </a>
-                        </li>
-                      </ul>
-                      <br />
-                      <iframe src="https://mercadostech.maps.arcgis.com/apps/dashboards/d47ba40f3dfc4940acd9916ed5fdd7c2" style={{width: '100%', height: '45%'}}>
-                      </iframe>
-                      {/* <p>
+                  <ul className="button-list">
+                    <li
+                      onClick={() => {
+                        handleChange("HIDROCARBUROS");
+                      }}
+                    >
+                      <a
+                        className={
+                          "button-item " +
+                          (proyecto == "HIDROCARBUROS" ? "active" : "")
+                        }
+                      >
+                        <i>
+                          <img src={bomba} style={{ width: "30px" }} />
+                        </i>
+                        <span>Hidrocarburos</span>
+                      </a>
+                    </li>
+                    <li
+                      onClick={() => {
+                        handleChange("Redes eléctricas");
+                      }}
+                    >
+                      <a
+                        className={
+                          "button-item " +
+                          (proyecto == "Redes eléctricas" ? "active" : "")
+                        }
+                      >
+                        <i>
+                          <img
+                            src={redes_electricas}
+                            style={{ width: "30px" }}
+                          />
+                        </i>
+                        <span>Redes eléctricas</span>
+                      </a>
+                    </li>
+                    <li
+                      onClick={() => {
+                        handleChange("Hidroeléctricas");
+                      }}
+                    >
+                      <a
+                        className={
+                          "button-item " +
+                          (proyecto == "Hidroeléctricas" ? "active" : "")
+                        }
+                      >
+                        <i>
+                          <img src={agua_icon} style={{ width: "30px" }} />
+                        </i>
+                        <span>Hidroeléctricas</span>
+                      </a>
+                    </li>
+                    <li
+                      onClick={() => {
+                        handleChange("poliductos");
+                      }}
+                    >
+                      <a
+                        className={
+                          "button-item " +
+                          (proyecto == "poliductos" ? "active" : "")
+                        }
+                      >
+                        <i>
+                          <img src={mineria} style={{ width: "30px" }} />
+                        </i>
+                        <span>Poliductos</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <br />
+                  <iframe
+                    src="https://mercadostech.maps.arcgis.com/apps/dashboards/d47ba40f3dfc4940acd9916ed5fdd7c2"
+                    style={{ width: "100%", height: "45%" }}
+                  ></iframe>
+                  {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Animi ea, inventore quos accusantium culpa aliquid
                         fugiat itaque nulla tempore alias? Eius illo accusamus
                         reprehenderit perspiciatis recusandae officiis, omnis
                         est repellendus.
                       </p> */}
-                    </div>
+                </div>
               </>
             )}
           </>
         </section>
-      </div>
     </div>
   );
 };
