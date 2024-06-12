@@ -9806,7 +9806,7 @@ h6,
 }
 
 .container-fluid.nav-bar, .nav-bar.container-sm, .nav-bar.container-md, .nav-bar.container-lg, .nav-bar.container-xl {
-  position: absolute;
+  position: relative;
   z-index: 9;
 }
 
