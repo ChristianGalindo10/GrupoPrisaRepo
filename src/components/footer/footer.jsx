@@ -26,28 +26,28 @@ const Footer = () => {
               <img src={celsia} />
             </NavLink>
             <NavLink
-              to="/departamentos"
+              to="/"
               className="nav-item nav-link"
               activeClassName="active"
             >
               <img src={ecopetrol} />
             </NavLink>
             <NavLink
-              to="/tiposEnergia"
+              to="/"
               className="nav-item nav-link"
               activeClassName="active"
             >
               <img src={enel} />
             </NavLink>
             <NavLink
-              to="/mapas/general"
+              to="/"
               className="nav-item nav-link"
               activeClassName="active"
             >
               <img src={epm} />
             </NavLink>
             <NavLink
-              to="/mapas/general"
+              to="/"
               className="nav-item nav-link"
               activeClassName="active"
             >
