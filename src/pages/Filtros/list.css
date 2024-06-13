@@ -1,45 +1,104 @@
 .button-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #2DADFF;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #2dadff;
+}
+
+.button-item {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button-item.active,
+.button-item.active:hover {
+  background-color: #2dadff;
+}
+
+.button-item:hover {
+  background-color: #6c757d;
+}
+
+.button-item i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.button-item span {
+  font-size: 16px;
+}
+
+.button-item {
+  text-decoration: none;
+}
+
+.button-item:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.filterMap {
+  width: 65%;
+  height: 70vh;
+}
+
+.filterStats {
+  width: 30%;
+  height: 70vh;
+}
+
+#filtersSection {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.filter-select {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.content_full_page2 {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1019px) {
+  .filterMap {
+    width: 100%;
+    height: 70vh;
   }
 
-  .button-item {
-    background-color: transparent;
-    color: white;
+  .filterStats {
+    width: 100%;
+    height: 70vh;
+  }
+
+  #filtersSection {
     display: flex;
-    align-items: center;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
-  .button-item.active, .button-item.active:hover {
-    background-color: #2DADFF;
+  .filter-select {
+    width: 100%;
   }
+}
 
-  .button-item:hover{
-    background-color: #6c757d;
-  }
-
-  .button-item i {
-    margin-right: 10px;
-    font-size: 20px;
-  }
-
-  .button-item span {
-    font-size: 16px;
-  }
-
-  .button-item{
-    text-decoration: none;
-  }
-
-  .button-item:hover{
-    text-decoration: none;
-    color: white;
-  }
+.content_section2{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between
+}

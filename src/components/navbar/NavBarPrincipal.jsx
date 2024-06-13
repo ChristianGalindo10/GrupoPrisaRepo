@@ -1,10 +1,6 @@
-import { archivo } from "./archivo";
-import MenuItems from "./MenuItems";
-import { Link, NavLink } from "react-router-dom";
-import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 import "./style.min.css";
 import "./style.css";
-import "./tempusdominus-bootstrap-4.min.css";
 import logoCaribe from "../../assets/icons/logo-Caribe 1.png";
 import esri from "../../assets/icons/esri.png";
 import celsia from "../../assets/icons/celsia.png";
@@ -16,22 +12,10 @@ import facebook from "../../assets/icons/icon_facebook.png";
 import instagram from "../../assets/icons/icon_instagram.png";
 import linkedin from "../../assets/icons/icon_linkedin.png";
 import youtube from "../../assets/icons/icon_youtube.png";
-import Scroll from "react-scroll";
-const ScrollLink = Scroll.ScrollLink;
 
 const NavbarPrincipal = () => {
   return (
     <>
-      {/* <nav className="nv">
-                <ul className="menus">
-                    {
-                        archivo.map((menu, index) => {
-                            const dephtlevel = 0;
-                            return <MenuItems items={menu} key={index} dephtlevel={dephtlevel} />
-                        })
-                    }
-                </ul>
-            </nav> */}
       <div className="container-fluid p-0 nav-bar">
         <nav className="navbar navbar-expand-lg bg" id="logos-nav">
           <NavLink
@@ -115,16 +99,6 @@ const NavbarPrincipal = () => {
               >
                 INICIO
               </NavLink>
-              {/* <ScrollLink
-                to="caribe-section"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="some-class"
-                activeClass="active"
-              >
-                Link Text Goes Here
-              </ScrollLink> */}
               <NavLink
                 to="/"
                 className="nav-item nav-link"
