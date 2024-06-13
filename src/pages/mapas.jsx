@@ -50,7 +50,7 @@ const Mapas = () => {
             <section className="content_section">
               <iframe
                 src={
-                  "https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=be1f986a61d747d8a00dda5599ba8602"
+                  "https://arcg.is/1qbTD50"
                 }
                 className="content_full_page"
               ></iframe>

@@ -287,13 +287,13 @@ const FiltrosPage = () => {
                         </li>
                         <li
                           onClick={() => {
-                            handleChange("poliductos");
+                            handleChange("Poliductos");
                           }}
                         >
                           <a
                             className={
                               "button-item " +
-                              (proyecto == "poliductos" ? "active" : "")
+                              (proyecto == "Poliductos" ? "active" : "")
                             }
                           >
                             <i>
@@ -392,13 +392,13 @@ const FiltrosPage = () => {
                         </li>
                         <li
                           onClick={() => {
-                            handleChange("poliductos");
+                            handleChange("Poliductos");
                           }}
                         >
                           <a
                             className={
                               "button-item " +
-                              (proyecto == "poliductos" ? "active" : "")
+                              (proyecto == "Poliductos" ? "active" : "")
                             }
                           >
                             <i>
@@ -497,13 +497,13 @@ const FiltrosPage = () => {
                     </li>
                     <li
                       onClick={() => {
-                        handleChange("poliductos");
+                        handleChange("Poliductos");
                       }}
                     >
                       <a
                         className={
                           "button-item " +
-                          (proyecto == "poliductos" ? "active" : "")
+                          (proyecto == "Poliductos" ? "active" : "")
                         }
                       >
                         <i>

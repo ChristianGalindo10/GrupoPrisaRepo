@@ -6,6 +6,7 @@ import "./style.min.css";
 import "./style.css";
 import "./tempusdominus-bootstrap-4.min.css";
 import logoCaribe from "../../assets/icons/logo-Caribe 1.png";
+import esri from "../../assets/icons/esri.png";
 import celsia from "../../assets/icons/celsia.png";
 import ecopetrol from "../../assets/icons/ecopetrol.png";
 import enel from "../../assets/icons/enel.png";
@@ -33,18 +34,25 @@ const NavbarPrincipal = () => {
             </nav> */}
       <div className="container-fluid p-0 nav-bar">
         <nav className="navbar navbar-expand-lg bg" id="logos-nav">
-        <NavLink
-                to="/"
-                className="navbar-brand px-lg-4 m-0"
-                activeClassName="active"
-              >
-                <img src={logoCaribe} />
-              </NavLink>
+          <NavLink
+            to="/"
+            className="navbar-brand px-lg-4 m-0"
+            activeClassName="active"
+          >
+            <img src={logoCaribe} />
+          </NavLink>
           <div
             className="collapse navbar-collapse justify-content-between"
             id="nav-images"
           >
             <div className="navbar-nav ml-auto p-4">
+              <NavLink
+                to="/"
+                className="nav-item nav-link"
+                activeClassName="active"
+              >
+                <img src={esri} style={{width: '100%'}} />
+              </NavLink>
               <NavLink
                 to="/"
                 className="nav-item nav-link"
@@ -122,9 +130,12 @@ const NavbarPrincipal = () => {
                 className="nav-item nav-link"
                 activeClassName="active"
                 onClick={() => {
-                  setTimeout(() => { 
-                    const anchor = document.querySelector('#caribe-section')
-                    anchor.scrollIntoView({ behavior: 'smooth', block: 'center' }) 
+                  setTimeout(() => {
+                    const anchor = document.querySelector("#caribe-section");
+                    anchor.scrollIntoView({
+                      behavior: "smooth",
+                      block: "center",
+                    });
                   }, 100);
                 }}
               >
@@ -135,9 +146,14 @@ const NavbarPrincipal = () => {
                 className="nav-item nav-link"
                 activeClassName="active2"
                 onClick={() => {
-                  setTimeout(() => { 
-                    const anchor = document.querySelector('#departamentos-section')
-                    anchor.scrollIntoView({ behavior: 'smooth', block: 'center' }) 
+                  setTimeout(() => {
+                    const anchor = document.querySelector(
+                      "#departamentos-section"
+                    );
+                    anchor.scrollIntoView({
+                      behavior: "smooth",
+                      block: "center",
+                    });
                   }, 100);
                 }}
               >

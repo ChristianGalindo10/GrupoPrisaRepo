@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
+import esri from "../../assets/icons/esri.png";
 import celsia from "../../assets/icons/celsia.png";
 import ecopetrol from "../../assets/icons/ecopetrol.png";
 import enel from "../../assets/icons/enel.png";
@@ -14,10 +15,15 @@ const Footer = () => {
         className="container-fluid text-center text-white border-top py-4"
         style={{ borderColor: "rgba(256, 256, 256, .1) !important" }}
       >
-        <div
-          className="justify-content-between"
-        >
+        <div className="justify-content-between">
           <div className="ml-auto p-4" id="footer-images">
+            <NavLink
+              to="/"
+              className="nav-item nav-link"
+              activeClassName="active"
+            >
+              <img src={esri}/>
+            </NavLink>
             <NavLink
               to="/"
               className="nav-item nav-link"
@@ -56,9 +62,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="row mx-0 px-sm-3 px-lg-5">
-        
-      </div>
+      <div className="row mx-0 px-sm-3 px-lg-5"></div>
     </div>
   );
 };

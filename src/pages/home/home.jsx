@@ -65,7 +65,7 @@ const Home = () => {
         <Link to={gif[gifI]?.link_url}>
           <div className="home-main-title-overlay">
             <h2 className="display-2 text-white m-0">
-              Caribe potencia energética
+              Caribe Potencia Energética
             </h2>
             <br />
             <h2 class="text-white m-0">* Colombia 2024 *</h2>
@@ -194,7 +194,7 @@ const Home = () => {
                 </div>
 
                 <div class="col-md-3">
-                  <NavLink  to="/filtros/23">
+                  <NavLink to="/filtros/23">
                     <div class="card">
                       <img
                         class="card-img"
@@ -351,7 +351,7 @@ const Home = () => {
                 </div>
 
                 <div class="col-md-3">
-                  <NavLink  to="/filtros/23">
+                  <NavLink to="/filtros/23">
                     <div class="card">
                       <img
                         class="card-img"
@@ -456,6 +456,15 @@ const Home = () => {
           </div>
         </div>
         <br />
+        <br />
+      </div>
+      <iframe
+        src="https://www.arcgis.com/apps/dashboards/f412e9a68608423dbba5bb00da64b420"
+        style={{ width: "100%", height: "80vh" }}
+      ></iframe>
+      <br />
+      <br />
+      <div className="home-content">
         <div>
           <h3>Noticias</h3>
           <div id="noticias-section">
@@ -506,8 +515,8 @@ const Home = () => {
       </div>
       <br />
       <iframe
-        src="https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=be1f986a61d747d8a00dda5599ba8602"
-        style={{ width: "100%", height: "70vh" }}
+        src="https://arcg.is/1qbTD50"
+        style={{ width: "100%", height: "80vh" }}
       ></iframe>
       <br />
       <br />
@@ -582,13 +591,22 @@ const Home = () => {
           <h3>Videos</h3>
           <div id="videos-section">
             <div class="left">
-              <iframe src="https://www.youtube.com/embed/DMAgQRAYGjA" style={{width: '100%', height: '100%'}}></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/DMAgQRAYGjA"
+                style={{ width: "100%", height: "100%" }}
+              ></iframe>
             </div>
             <div class="right-top">
-              <iframe src="https://www.youtube.com/embed/DMAgQRAYGjA" style={{width: '100%', height: '100%'}}></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/DMAgQRAYGjA"
+                style={{ width: "100%", height: "100%" }}
+              ></iframe>
             </div>
             <div class="right-bottom">
-              <iframe src="https://www.youtube.com/embed/DMAgQRAYGjA" style={{width: '100%', height: '100%'}}></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/DMAgQRAYGjA"
+                style={{ width: "100%", height: "100%" }}
+              ></iframe>
             </div>
           </div>
         </div>
