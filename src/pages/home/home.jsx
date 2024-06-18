@@ -5,19 +5,22 @@ import proyectosBanner from "../../assets/icons/proyectosBanner.png";
 import potencialBanner from "../../assets/icons/potencialBanner.png";
 import generalBanner from "../../assets/icons/generalBanner.png";
 import Multimedia from "../../components/multimedia/multimedia";
-import noticias1 from "../../assets/icons/noticias1.png";
-import noticias2 from "../../assets/icons/noticias2.png";
 import noticias3 from "../../assets/icons/noticias3.png";
 import caribe1 from "../../assets/icons/caribe1.png";
 import caribe2 from "../../assets/icons/caribe2.png";
 import caribe3 from "../../assets/icons/caribe3.png";
-import noticias4 from "../../assets/icons/noticias4.png";
-import noticias5 from "../../assets/icons/noticias5.png";
-import noticias6 from "../../assets/icons/noticias6.png";
-import noticias7 from "../../assets/icons/noticias7.png";
-import noticias8 from "../../assets/icons/noticias8.png";
-import noticias9 from "../../assets/icons/noticias9.png";
 import destacado from "../../assets/icons/destacado.png";
+import destacado2 from "../../assets/icons/destacado2.png";
+import dataOpinion from "../../components/opinion/data.json";
+import dataNoticias from "../../components/noticias/data.json";
+import atlantico from "../../assets/icons/Atlántico-100 1.jpg";
+import cartagena from "../../assets/icons/Cartagena-100.jpg";
+import cordoba from "../../assets/icons/Cordoba.png";
+import guajira from "../../assets/icons/Guajira-100.jpg";
+import sanAndres from "../../assets/icons/San Andrés.png";
+import santaMarta from "../../assets/icons/Santa Marta-100.jpg";
+import sincelejo from "../../assets/icons/Sincelejo.png";
+import valledupar from "../../assets/icons/Vallledupar.png";
 
 const Home = () => {
   const gif = [
@@ -80,23 +83,50 @@ const Home = () => {
       <div className="home-content">
         <div id="container-noticias1">
           <div class="left">
-            <img src={noticias1} />
-            <h4 style={{ fontWeight: "bold" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
-            </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              vulputate pulvinar porta. Pellentesque vel iaculis nisi. Sed
-              pellentesque sem vitae neque commodo, at imperdiet ex ullamcorper.
-            </p>
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to={
+                "https://www.caf.com/es/actualidad/noticias/2024/06/caf-destaca-el-potencial-de-america-latina-y-el-caribe-para-la-produccion-de-energia-limpia-barata-y-estable/"
+              }
+              target="_blank"
+            >
+              <img
+                src={
+                  "https://www.caf.com/media/4669107/red-2024-portada.png?anchor=center&mode=crop&width=960&height=640&format=webp&quality=80&rnd=133627487370000000"
+                }
+              />
+              <h4 style={{ fontWeight: "bold" }}>
+                CAF destaca el potencial de América Latina y el Caribe para la
+                producción de energía limpia, barata y estable
+              </h4>
+              <p>
+                El nuevo Reporte de Economía y Desarrollo de CAF titulado
+                Energías renovadas: Transición energética justa para el
+                desarrollo sostenible aborda los desafíos simultáneos de hacer
+                crecer el ingreso por habitante de manera considerable y
+                sostenible, disminuir los niveles de emisiones y reducir la
+                desigualdad en los próximos años.
+              </p>
+            </NavLink>
           </div>
+
           <div class="right-top">
-            <img src={noticias2} />
-            <h5 style={{ fontWeight: "bold" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
-            </h5>
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to={
+                "https://investigaciones.corfi.com/documents/38211/0/11-06-2024+Informe+de+din%C3%A1mica+sectorial+-+Energ%C3%ADa.pdf/97a4be6a-9d1c-c6b7-bef4-e927c7774935?t=1718223531786"
+              }
+              target="_blank"
+            >
+              <img src={destacado2} />
+              <h5 style={{ fontWeight: "bold" }}>
+                La demanda y generación de energía han mostrado un
+                comportamiento favorable en el inicio del año. Ante el
+                recrudecimiento del fenómeno de El Niño, la generación térmica
+                ha cobrado mayor relevancia. Esperamos un crecimiento de 2,8% en
+                2024.
+              </h5>
+            </NavLink>
           </div>
           <div class="right-bottom">
             <img src={noticias3} />
@@ -153,11 +183,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={atlantico}
                         alt="Atlántico"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Atlántico</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -168,11 +199,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={cartagena}
                         alt="Bolívar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Bolívar</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -183,11 +215,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={valledupar}
                         alt="Cesar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Cesar</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -198,11 +231,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={cordoba}
                         alt="Córdoba"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Córdoba</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -214,11 +248,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={guajira}
                         alt="Atlántico"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">La Guajira</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -229,11 +264,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={santaMarta}
                         alt="Bolívar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Magdalena</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -244,11 +280,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={sincelejo}
                         alt="Cesar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Sucre</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -259,13 +296,14 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={sanAndres}
                         alt="Córdoba"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">
                           Archipiélago de San Andrés y Providencia
                         </h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -309,11 +347,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={atlantico}
                         alt="Atlántico"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Atlántico</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -324,11 +363,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={cartagena}
                         alt="Bolívar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Bolívar</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -340,11 +380,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={valledupar}
                         alt="Cesar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Cesar</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -355,11 +396,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={cordoba}
                         alt="Córdoba"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Córdoba</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -371,11 +413,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={guajira}
                         alt="Atlántico"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">La Guajira</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -385,11 +428,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={santaMarta}
                         alt="Bolívar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Magdalena</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -401,11 +445,12 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={sincelejo}
                         alt="Cesar"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">Sucre</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -416,13 +461,14 @@ const Home = () => {
                     <div class="card">
                       <img
                         class="card-img"
-                        src="https://via.placeholder.com/900"
+                        src={sanAndres}
                         alt="Córdoba"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">
                           Archipiélago de San Andrés y Providencia
                         </h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                       </div>
                     </div>
                   </NavLink>
@@ -468,48 +514,19 @@ const Home = () => {
         <div>
           <h3>Noticias</h3>
           <div id="noticias-section">
-            <div className="noticias-article">
-              <img src={noticias4} />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </div>
-            <div className="noticias-article">
-              <img src={noticias5} />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </div>
-            <div className="noticias-article">
-              <img src={noticias6} />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </div>
-            <div className="noticias-article">
-              <img src={noticias7} />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </div>
-            <div className="noticias-article">
-              <img src={noticias8} />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </div>
-            <div className="noticias-article">
-              <img src={noticias9} />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </div>
+            {dataNoticias.map((noticia) => {
+              return (
+                <NavLink
+                  style={{ textDecoration: "none" }}
+                  to={"/noticias/" + noticia.id}
+                >
+                  <div className="noticias-article" key={noticia.id}>
+                    <img src={noticia.img} />
+                    <p>{noticia.titulo}</p>
+                  </div>
+                </NavLink>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -543,44 +560,23 @@ const Home = () => {
         <br />
         <br />
         <div>
-          <h3>Columnistas</h3>
+          <h3>Opinión</h3>
           <div id="columnistas-section">
-            <div className="columnistas-article">
-              <img src="https://via.placeholder.com/900x600" />
-              <br />
-              <h5>Lorem Ipsum</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                vulputate pulvinar porta.
-              </p>
-            </div>
-            <div className="columnistas-article">
-              <img src="https://via.placeholder.com/900x600" />
-              <br />
-              <h5>Lorem Ipsum</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                vulputate pulvinar porta.
-              </p>
-            </div>
-            <div className="columnistas-article">
-              <img src="https://via.placeholder.com/900x600" />
-              <br />
-              <h5>Lorem Ipsum</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                vulputate pulvinar porta.
-              </p>
-            </div>
-            <div className="columnistas-article">
-              <img src="https://via.placeholder.com/900x600" />
-              <br />
-              <h5>Lorem Ipsum</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                vulputate pulvinar porta.
-              </p>
-            </div>
+            {dataOpinion.map((item) => {
+              return (
+                <NavLink
+                  style={{ textDecoration: "none" }}
+                  to={"/opinion/" + item.id}
+                >
+                  <div className="columnistas-article" key={item.id}>
+                    <img src={item.img} />
+                    <br />
+                    <h5>{item.titulo}</h5>
+                    <p>{item.desc}</p>
+                  </div>
+                </NavLink>
+              );
+            })}
           </div>
         </div>
         <br />
@@ -592,19 +588,20 @@ const Home = () => {
           <div id="videos-section">
             <div class="left">
               <iframe
-                src="https://www.youtube.com/embed/DMAgQRAYGjA"
                 style={{ width: "100%", height: "100%" }}
+                src="https://www.youtube.com/embed/iqEQhM4kifk?list=PLU0OqN5T3HQhTrNc8fG01v4aBJhh9CQSe"
+                allowfullscreen
               ></iframe>
             </div>
             <div class="right-top">
               <iframe
-                src="https://www.youtube.com/embed/DMAgQRAYGjA"
+                src="https://www.youtube.com/embed/0MrTqCT6KKw"
                 style={{ width: "100%", height: "100%" }}
               ></iframe>
             </div>
             <div class="right-bottom">
               <iframe
-                src="https://www.youtube.com/embed/DMAgQRAYGjA"
+                src="https://www.youtube.com/embed/DGvjx7xuhYs"
                 style={{ width: "100%", height: "100%" }}
               ></iframe>
             </div>

@@ -1,0 +1,420 @@
+[
+  {
+    "id": "1",
+    "titulo": "Colombia avanza en la implementación de proyectos de energías renovables",
+    "autor": "El Universal",
+    "img": "https://www.eluniversal.com.co/resizer/v2/YCCQUFB4SFGGHJBD5FQY25MNZU.jpg?auth=f6210f053e86b42fa315245c93d05c40388e77be360d40fd975ea7b1c28554d5&smart=true&width=1200&height=800&quality=70",
+    "fecha": "12 JUN 2024",
+    "desc": "A pesar de las inversiones significativas y el desarrollo de 66 proyectos para 2024, la implementación enfrenta desafíos debido a largos tiempos de trámite.",
+    "contenido": [
+      {
+        "parrafo": "A pesar de las inversiones significativas y el desarrollo de 66 proyectos para 2024, la implementación enfrenta desafíos debido a largos tiempos de trámite."
+      },
+      {
+        "parrafo": "Colombia se posiciona como un actor relevante en el cambio energético de América Latina, impulsado por su potencial en recursos naturales y el compromiso de políticas públicas enfocadas en una transición energética efectiva. Reconocido por el Consejo Mundial de Energía (WEC, por sus siglas en inglés), el país destaca en la región gracias a sus iniciativas en energías renovables."
+      },
+      {
+        "parrafo": "Según el último informe de la Asociación Energías Renovables Ser Colombia, el portafolio para 2024 incluye 66 proyectos de Energías Renovables No Convencionales (FNCER), con una capacidad nueva de 3.040 MW, involucrando proyectos en diversas fases como pruebas, construcción y desarrollo. Las inversiones estimadas rondan los $2.200 millones de dólares. Sin embargo, la lenta implementación, con un promedio de 3 a 6 años para el inicio de operaciones en proyectos de pequeña escala, sigue siendo un reto significativo."
+      },
+      {
+        "parrafo": "Para enfrentar estos desafíos, se deben abordar cinco aspectos fundamentales:"
+      },
+      {
+        "parrafo": "Marco regulatorio claro y favorable"
+      },
+      {
+        "parrafo": "Un marco regulatorio bien definido es crucial para atraer inversiones. Esto incluye la definición de tarifas de conexión, incentivos fiscales, mecanismos de subasta de energía renovable y normativas que promuevan la generación distribuida."
+      },
+      {
+        "parrafo": "Avances tecnológicos"
+      },
+      {
+        "parrafo": "La tecnología es esencial para mejorar la eficiencia y la confiabilidad de las energías renovables. Los avances en el diseño y la producción de equipos, así como en los sistemas de almacenamiento de energía, son vitales. Herramientas como ArcGIS, basadas en Sistemas de Información Geográfica (SIG), permiten optimizar la ubicación de infraestructuras renovables, maximizando su rendimiento y minimizando el impacto ambiental."
+      },
+      {
+        "parrafo": "Inversión y financiamiento"
+      },
+      {
+        "parrafo": "La implementación de tecnologías avanzadas en energías renovables requiere una inversión significativa. Es crucial fomentar el financiamiento público y privado a través de esquemas como créditos blandos, garantías gubernamentales y mecanismos de inversión sostenible."
+      },
+      {
+        "parrafo": "Sostenibilidad y participación comunitaria"
+      },
+      {
+        "parrafo": "La transición energética debe ser sostenible y contar con la participación activa de las comunidades locales. Esto implica consultas públicas, educación ambiental y la garantía de equidad y justicia social en la distribución de los beneficios económicos y ambientales."
+      },
+      {
+        "parrafo": "Reducción de tiempos de trámites"
+      },
+      {
+        "parrafo": "La burocracia y los plazos normativos son un obstáculo para la rápida implementación de proyectos. Reducir los tiempos de trámites y definir términos claros para los permisos es esencial para acelerar el proceso."
+      },
+      {
+        "parrafo": "Katherine Vargas, gerente de Recursos Naturales de Esri Colombia, subraya la importancia de estos puntos para lograr una transición energética efectiva. Con una hoja de ruta clara que considere tanto variables globales como locales, el desarrollo de proyectos de energías renovables en Colombia será más eficiente y sostenible, contribuyendo significativamente al cambio energético en la región."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrá conectar a la red nacional",
+    "autor": "El Tiempo",
+    "img": "https://imagenes.eltiempo.com/files/image_1200_600/files/fp/uploads/2024/04/18/662140397523c.r_d.1909-1113-4000.jpeg",
+    "fecha": "13 Junio 2024",
+    "desc": "Con la aprobación de la licencia ambiental para el segundo tramo de la línea de transmisión Colectora, al menos 1.050 megavatios de siete proyectos eólicos que se van a construir en La Guajira se podrán conectar a la red eléctrica nacional. ",
+    "contenido": [
+      {
+        "parrafo": "Con la aprobación de la licencia ambiental para el segundo tramo de la línea de transmisión Colectora, al menos 1.050 megavatios de siete proyectos eólicos que se van a construir en La Guajira se podrán conectar a la red eléctrica nacional. "
+      },
+      {
+        "parrafo": "Estos parques eólicos son JK3 (99 megavatios), JK4 (195 megavatios), JK1 (180 megavatios), JK2 (75 megavatios), Kuisa (200 megavatios), Urraichi (100 megavatios) y Ipapure (201 megavatios)."
+      },
+      {
+        "parrafo": "Además, teniendo en cuenta los 120 kilómetros de trazado eléctrico que comparte su línea de transmisión con la subestación Cuestecitas, al menos otros nueve proyectos que suman 1.274 megavatios, principalmente eólicos, también serían beneficiados."
+      },
+      {
+        "parrafo": "Se trata de Guajira I (20 megavatios), Acacias 2 (80 megavatios), WESP 01 (12 megavatios), Windpeshi (200 megavatios), Camelias (250 megavatios), Beta (280 megavatios), Alpha (212 megavatios), Elipse (200 megavatios) y Lyra (19,9 megavatios)."
+      },
+      {
+        "parrafo": "'No solo se trata del proyecto más importante de conexión de generación eólica del norte del país a la red, sino además en uno de los activos estratégicos para la transición energética que nos permitirá avanzar en el pilar de la gradualidad, la soberanía y la confiabilidad', precisó Adrián Correa, director de la Upme."
+      },
+      {
+        "parrafo": "La línea de transmisión Colectora es un proyecto que busca fortalecer el servicio de energía eléctrica en la zona norte del país. Tendrá 475 kilómetros que pasarán por 10 municipios en La Guajira y cuatro en el Cesar."
+      },
+      {
+        "parrafo": "'El proyecto Colectora representa el 6 por ciento de la capacidad instalada nacional y el 9,6 por ciento de la demanda máxima del país al momento de su puesta en operación, que se proyecta en 2026, contribuyendo así al fortalecimiento del sistema de transmisión nacional', destacó Fredy Zuleta, gerente General de Enlaza, filial del GEB."
+      },
+      {
+        "parrafo": "Por su gran magnitud, Colectora está dividida en dos tramos. El primero es Cuestecitas-La Loma de 247 kilómetros y su construcción comenzó en julio de 2023 luego de recibir la licencia ambiental por parte de la Anla. "
+      },
+      {
+        "parrafo": "El segundo tramo es Colectora-Cuestecitas de 228 kilómetros, el cual recibió la licencia ambiental el pasado 12 de junio. Por lo tanto, el Grupo Energía Bogotá (GEB) espera iniciar su construcción en las próximas semanas. "
+      },
+      {
+        "parrafo": "'Este logro es el resultado del trabajo permanente de un equipo de profesionales que en Enlaza debió enfrentar retos como la pandemia, gestionar con éxito los procesos de 223 consultas previas con comunidades y la sustracción del Distrito Regional de Manejo Integrado Cuenca Baja del Río Ranchería', comentó Fredy Zuleta."
+      },
+      {
+        "parrafo": "Por el gran potencial de energía eólica y solar que hay en La Guajira, en total la Upme ha aprobado 20 proyectos que suman 2.465 megavatios, de los cuales, 17 son eólicos y tres solares, que también se verán beneficiados con Colectora. "
+      },
+      {
+        "parrafo": "'Esperamos con la aprobación de esta licencia y la posterior entrada en operación del proyecto de transmisión, seguir incorporando más megas renovables a la red, haciendo nuestra matriz energética más robusta, diversificada y confiable', aseguró el director de la Upme."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "titulo": "Agencia Internacional destaca la mayor inversión en energía en Colombia durante 2023",
+    "autor": "Portafolio",
+    "img": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/06/12/6669ce2a59b0c.jpeg",
+    "fecha": "16 jun 2024",
+    "desc": "La entidad resaltó los avances en interconexión con Panamá y los avances en energía eólica costa afuera.",
+    "contenido": [
+      {
+        "parrafo": "La entidad resaltó los avances en interconexión con Panamá y los avances en energía eólica costa afuera.\nTres países de la región han mostrado una tendencia relevante en el incremento de su inversión para la transición energética, dentro de los cuales está Colombia junto con Chile y Brasil, específicamente en materia de redes de transmisión de electricidad.\nAsí señaló la Agencia Internacional de Energía (IEA) en su informe ‘World Energy Investment’, en el que destacó que la región y el mundo están enfrentando retos, pero se han visto impulsos significativos en términos de los recursos destinados para la inversión en nueva infraestructura energética."
+      },
+      {
+        "parrafo": "“La inversión en América Latina casi se ha duplicado desde 2021, notablemente en Colombia, Chile y Brasil, donde el gasto se duplicó en 2023” señala el informe. Si bien estos datos son positivos, la principal inversión en energía a nivel mundial se ha visto en China, que se lleva un 80% del capital. Esto, según la Agencia, refleja que la tendencia es positiva, pero aún Latinoamérica tiene niveles de inversión ”preocupantemente” bajos."
+      },
+      {
+        "parrafo": "La entidad internacional destacó que la disponibilidad de redes eléctricas es el cuello de botella para la transición energética, que ha logrado tener un cambio de tendencia después de estar relativamente estancada la inversión en este sentido. Para 2024, la entidad espera que se destinen US$400.000 millones, impulsado por Europa, Estados Unidos, China y partes de América Latina.\nEn la región el caso de Brasil se destaca, puesto que durante 2023 se logró subastar un récord de 10.500 kilómetros de redes, por más de US$8.000 millones."
+      },
+      {
+        "parrafo": "Sin embargo, la entidad internacional también destacó que Colombia y Panamá son focos de interés gracias a que se avanzó en los planes de interconexión. Esto permitiría que los países de Centroamérica se conectaran con Suramérica por medio de Colombia."
+      },
+      {
+        "parrafo": "Vale la pena destacar que actualmente hay ya una interconexión entre Ecuador y Colombia, que se podría extender a otras naciones andinas, gracias a las conversaciones avanzadas, desde hace varios años, para la creación de un Mercado Andino Eléctrico, que conectaría también a Perú y Chile.\nAhora bien, la interconexión con Panamá se encuentra en un análisis para entender las que serían las mejores opciones para lanzar el tendido, puesto que podría tener una parte submarina. Sin embargo, esto hace parte de lo que está siendo evaluado."
+      },
+      {
+        "parrafo": "De hecho, no se ha podido presentar el Estudio de Impacto Ambiental ante la Autoridad Nacional de Licencias Ambientales (Anla) para el tendido submarino que se había trazado, puesto que una zona de reserva fue ampliada."
+      },
+      {
+        "parrafo": "El informe de la Agencia Internacional de Energía indicó, igualmente, que en América Latina y el Caribe se destaca que en la región ha habido un fuerte impulso para las energías renovables en el marco de la transición energética. Sin embargo, la proporción de inversiones entre fósiles y renovables se mantiene por debajo de la mitad del promedio mundial durante 2023.\nEsto puesto que 35% de los recursos para energía son para renovables no convencionales, el otro 55% es para hidrocarburos y fósiles y el 10% restante para uso final."
+      },
+      {
+        "parrafo": "Los casos de Brasil y Colombia fueron destacados en el informe de la entidad, particularmente por el impulso para la energía eólica marina. Como se recuerda, Colombia lanzó el año pasado la primera ronda de esta tecnología, que ha tenido una serie de modificaciones, algunas de las cuales se anunciaron en días pasados."
+      },
+      {
+        "parrafo": "El Ministerio de Minas y Energía señaló que con este proceso competitivo espera recibir propuestas por una capacidad instalada de entre 1 y 3 gigavatios y una inversión estimada de cerca de US$1.000 millones."
+      },
+      {
+        "parrafo": "Se proyecta que las empresas tendrán permisos de ocupación temporal para hacer todos los procesos previos a la construcción y operación de estos parques.\nJuan Carlos Bedoya, jefe de la Oficina de Asuntos Regulatorios del Ministerio, manifestó que la meta es que a 2040 el país tenga en su matriz unos 7 gigavatios de energía proveniente de esta fuente."
+      },
+      {
+        "parrafo": "La Agencia destacó estos esfuerzos, aunque señaló que se requieren mejorar algunas situaciones para cumplir con los objetivos de descarbonización y de permeación de tecnologías menos intensivas en emisiones."
+      },
+      {
+        "parrafo": "“Los esfuerzos para reducir el costo del capital serán críticos y requerirán mejorar la proposición económica para las inversiones limpias, al tiempo que se reducen los riesgos macroeconómicos”, remata el informe."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "titulo": "Entró en operación el primer parque solar de EPM ",
+    "autor": "El Colombiano",
+    "img": "https://estaticos.elcolombiano.com/binrepository/1004x565/112c0/780d565/none/11101/XDBJ/paneles-solares-grupo-epm-transicion_45348390_20240614103119.jpg",
+    "fecha": "16 Junio 2024",
+    "desc": "Está ubicado en La Dorada (Caldas) y es capaz de brindar energía a una ciudad de 400.000 habitantes.",
+    "contenido": [
+      {
+        "parrafo": "Está ubicado en La Dorada (Caldas) y es capaz de brindar energía a una ciudad de 400.000 habitantes."
+      },
+      {
+        "parrafo": "Este viernes 14 de junio entró en operación el parque fotovoltaico Tepuy, ubicado en La Dorada (Caldas). Tiene la capacidad de aportar la energía para abastecer a ciudades cercanas a los 400.000 habitantes como Manizales."
+      },
+      {
+        "parrafo": "Rodrigo Hidalgo, director de proyectos de Sostenimiento y Generación de EPM, confirmó que la inversión fue de 95 millones de dólares. La construcción tardó unos dos años, ya que comenzó en marzo de 2022. Se estima que el Tepuy aporte entre el 18% y 20% de la energía solar del país.\nAgregó que la firma asiática Power China estuvo encargada de ejecutar la construcción del Tepuy. El costo del contrato fue cercano a los 40 millones de dólares."
+      },
+      {
+        "parrafo": "Hidalgo sostuvo que seleccionaron La Dorada porque estudiaron diferentes lugares, pero para esta clase de proyectos de energía solar se deben tener en cuenta sitios que cuenten con buen sol para alimentar los paneles solares."
+      },
+      {
+        "parrafo": "“El cálculo es que nos proporcione unos 200 gigavatios (GW) al año, claro que hay que tener en cuenta la nubosidad y el sol que haya”, indicó."
+      },
+      {
+        "parrafo": "Este parque pertenece a Empresas Públicas de Medellín (EPM) y fue uno de los 30 proyectos solares adjudicados por XM, administrador y operador del sistema, en la subasta de energía (Obligaciones de Energía Firme para el Cargo por Confiabilidad 2027-2028) adelantada en febrero, donde la energía solar tuvo el 26% de participación."
+      },
+      {
+        "parrafo": "Este se trata del primer proyecto de energía renovable no convencional a gran escala del Grupo EPM. La empresa explicó con este busca diversificar su portafolio de proyectos y la oferta de energía a sus usuarios y al mercado."
+      },
+      {
+        "parrafo": "Tepuy tiene una potencia nominal de 83 megavatios (MW) y cuenta con 200.000 paneles bifaciales (tipo de paneles solares que pueden generar electricidad a partir de la luz solar que incide en ambos lados de la placa), distribuidos en 16 centros de transformación y agrupados en cinco circuitos."
+      },
+      {
+        "parrafo": "El adelanto del proyecto generó 1.500 empleos, con prioridad para pobladores del corregimiento Guarinocito, las veredas Purnio y Santa Helena y el casco urbano de La Dorada, el 51% de ellos mano de obra local."
+      },
+      {
+        "parrafo": "Tepuy se conecta al Sistema Interconectado Nacional (SIN) en la subestación Purnio, de la Central Hidroeléctrica de Caldas (CHEC), filial del Grupo EPM y operadora de la red eléctrica en este territorio."
+      },
+      {
+        "parrafo": "Directivos de EPM que dialogaron con EL COLOMBIANO aseguraron que la compañía pública le seguirá apostando a esta clase de proyectos de energía solar. De hecho, están adelantando gestiones para construir otro parque fotovoltaico en Santander, por ahora se están adelantando estudios de factibilidad, pero todavía no hay una fecha estimada para comenzar las obras. Asimismo, se están revisando algunos terrenos en Magdalena Medio y el Cesar."
+      },
+      {
+        "parrafo": "No se abandonarán los proyectos hidráulicos"
+      },
+      {
+        "parrafo": "El evento de inauguración contó con la presencia de Federico Gutiérrez, alcalde de Medellín y presidente de la Junta Directiva de EPM. El mandatario sostuvo que este es el segundo parque solar más grande de Colombia, solo superado en capacidad por La Loma, ubicado en el César y que cuenta con 400.000 paneles. “EPM significa seguridad energética y progreso para las regiones. Es una empresa 100% pública y seguirá siendo así. Hoy le entregamos un proyecto de transición energética al país, pero no con carreta ni con cuentos, sino con hechos reales”, celebró el alcalde."
+      },
+      {
+        "parrafo": "Y es que el aporte de EPM al sistema energético es considerable: genera alrededor del 23% de la energía del país. Solo Hidroituango aporta el 7,5%, pero una vez llegue a su máxima capacidad subirá esa cifra a 17,5%, lo que llevará a EPM a aportar cerca del 30% de la energía, según cuentas de Gutiérrez."
+      },
+      {
+        "parrafo": "Por otro lado, el mandatario fue claro en que la empresa pública no abandonará los proyectos hidráulicos. Argumentó que el país tiene que hacer una reflexión porque “aquí no hubo apagón porque Hidroituango estaba operando con cuatro turbinas” durante el Fenómeno de El Niño, cuando se presentó una sequía considerable de los embalses en Colombia. Añadió: “necesitamos más energía en firme, sigamos con los parques eólicos y solares, hagamos la apuesta de la transición energética, pero no abandonemos la generación hidráulica”."
+      },
+      {
+        "parrafo": "Sostuvo que Hidroituango es el único proyecto de energía hidráulica que sigue en construcción, pero no hay más en estructuración. El mandatario hizo un llamado, pues esta construcción de gran envergadura pueden tardar hasta 10 años para entrar en operación."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "titulo": "CAF dispone de US$ 3.000 millones para proyectos de energías renovables en el país",
+    "autor": "La Republica",
+    "img": "https://img.lalr.co/cms/2024/06/12122936/VICEMINISTRO.jpg?size=sm",
+    "fecha": "12 Junio 2024",
+    "desc": "Prochile anuncia cooperación con Colombia sobre la transición energética y los aportes de prácticas y tecnologías innovadoras para tal fin",
+    "contenido": [
+      {
+        "parrafo": "Prochile anuncia cooperación con Colombia sobre la transición energética y los aportes de prácticas y tecnologías innovadoras para tal fin"
+      },
+      {
+        "parrafo": "Prochile anunció una colaboración conjunta con Colombia para que el país logre sus metas de sostenibilidad y eficiencia energética."
+      },
+      {
+        "parrafo": "La iniciativa fue planteada en medio de la inauguración en Bogotá del Chile Summit Colombia 2024: Servicios que marcan tendencias y el Foro ‘compartiendo experiencias del sector energético chileno para Colombia’."
+      },
+      {
+        "parrafo": "“Esperamos que nuestra colaboración, manifestada a través del aporte de nuestras mejores prácticas y tecnologías innovadoras, contribuya para que Colombia alcance sus desafíos de sostenibilidad y eficiencia energética dentro de los plazos que tiene establecidos”, anunció la directora de ProChile en Colombia."
+      },
+      {
+        "parrafo": "Agregó que conocen la meta del país para alcanzar la neutralidad de carbono para 2050, y destacó que “Chile ha experimentado un notable avance en la incorporación de energías renovables en su matriz energética”."
+      },
+      {
+        "parrafo": "Por su parte, el representante en Colombia del Banco de Desarrollo de América Latina y el Caribe, CAF, Rodrigo Peñailillo, anunció que la entidad tiene recursos cercanos a los US$3.000 millones para financiar proyectos de energías renovables, que pueden aplicar entidades del Gobierno y compañías privadas. Asimismo, anticipó que en 2025 CAF será un banco 40% verde y azul para apoyar iniciativas en este renglón."
+      },
+      {
+        "parrafo": "Así mismo, el viceministro de Energía de Colombia, Javier Campillo, señaló que se cuenta con la licencia por parte de la Anla para línea de interconexión Colectora, que da luz verde a siete proyectos de energía renovables en Guajira y Cesar, que ayudará al cumplimiento de la meta 6G."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "titulo": "Los gobernadores del Caribe confirman la creación de empresa con énfasis en energías limpias",
+    "autor": "El Tiempo",
+    "img": "https://imagenes.eltiempo.com/files/image_1200_600/files/fp/uploads/2024/04/23/66281d5aa962d.r_d.965-450.jpeg",
+    "fecha": "14 Junio 2024",
+    "desc": "Se trata de una búsqueda de alternativas para dar solución a los latos costos de las tarifas de energía en esta zona del país.",
+    "contenido": [
+      {
+        "parrafo": "Se trata de una búsqueda de alternativas para dar solución a los latos costos de las tarifas de energía en esta zona del país."
+      },
+      {
+        "parrafo": "En un esfuerzo por abordar los altos costos de las tarifas de energía en la región, los gobernadores del Caribe anunciaron, este jueves desde Montería (Córdoba), la creación de una empresa pública enfocada en energías renovables."
+      },
+      {
+        "parrafo": "Este compromiso fue formalizado mediante el ‘Manifiesto de Montería’ durante la Cumbre de Gobernadores “Por una transición energética responsable y una paz con seguridad”, organizada por la Federación Nacional de Departamentos (FND) en la capital del departamento de Córdoba."
+      },
+      {
+        "parrafo": "El documento, firmado por los mandatarios de Córdoba, Sucre, Cesar, Magdalena, Bolívar y Atlántico, establece que en las próximas semanas se definirán los términos de referencia para la selección de un equipo promotor encargado de hacer viable este ambicioso proyecto."
+      },
+      {
+        "parrafo": "“El desarrollo de los mencionados términos de referencia permitirá garantizar la selección de la persona jurídica idónea para la estructuración de la mencionada empresa. El equipo promotor será de las máximas calidades técnicas, jurídicas y financieras”, se lee en el segundo numeral de la declaración."
+      },
+      {
+        "parrafo": "Con esta iniciativa, los gobernadores buscan posicionar al Caribe como líder en la transición energética del país."
+      },
+      {
+        "parrafo": "“Reafirmamos nuestro compromiso para hacer del Caribe la región que lidere la transición energética responsable del país, de la mano con el Gobierno nacional (...) Impulsaremos todos los mecanismos existentes para generar condiciones de autonomía energética en nuestra región y para nuestra gente”, afirmaron."
+      },
+      {
+        "parrafo": "Fortalecimiento de la RAP Caribe"
+      },
+      {
+        "parrafo": "El quinto y último punto de la Declaración de Montería subraya la importancia de fortalecer la Región Administrativa y de Planificación (RAP Caribe)."
+      },
+      {
+        "parrafo": "Los gobernadores enfatizaron la necesidad de consolidar la unidad de sus departamentos bajo esta figura legal, que permite la integración y desarrollo regional más allá de los límites departamentales."
+      },
+      {
+        "parrafo": "La creación de las RAP, primer paso hacia la formación de las Regiones como Entes Territoriales (RET), está respaldada por el artículo 306 de la Constitución Nacional, permitiendo que los departamentos se asocien según sus afinidades para ejecutar proyectos de alto impacto."
+      },
+      {
+        "parrafo": "“Reafirmamos el compromiso de fortalecer la unidad de nuestros departamentos en el marco de la Región Administrativa y de Planificación del Caribe, como principal mecanismo de integración y desarrollo de nuestra región”, concluyó el documento."
+      },
+      {
+        "parrafo": "Las RAP no solo cuentan con el aval de la Constitución de 1991, sino también con los artículos 10 y 30 de la Ley Orgánica de Ordenamiento Territorial (LOOT) 1454 de 2011. Esta estructura legal facilita la cooperación interdepartamental para abordar desafíos comunes y promover el desarrollo sostenible en la región Caribe."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "titulo": "Bondades del Caribe para ser epicentro de energías limpias",
+    "autor": "El Heraldo",
+    "img": "https://www.elheraldo.co/sites/default/files/styles/840x473/public/articulo/2024/06/15/whatsapp_image_2024-06-15_at_7.49.28_pm.jpeg",
+    "fecha": "16 Junio 2024",
+    "desc": "Los inversionistas destacan las ventajas que ofrece la ubicación geográfica del Atlántico para proyectos solares, eólicos y de hidrógeno verde.",
+    "contenido": [
+      {
+        "parrafo": "Los inversionistas destacan las ventajas que ofrece la ubicación geográfica del Atlántico para proyectos solares, eólicos y de hidrógeno verde."
+      },
+      {
+        "parrafo": "El país avanza en el proceso de la transición energética, su posición geográfica le permite contar con un gran potencial para sacar adelante proyectos de energía renovable acorde a las necesidades del mundo. Actualmente cuenta con recursos eólicos y solares, fuentes de energía limpia que fortalece el compromiso con las metas de descarbonización de la economía."
+      },
+      {
+        "parrafo": "En ese sentido, Isagen -una de las generadoras más importante de Colombia-  aportó en el 2023, el 18% de la energía del Sistema Interconectado Nacional, con una generación de energía renovable y limpia proveniente del agua, viento y sol, que le significa una matriz energética 100% verde."
+      },
+      {
+        "parrafo": "Dentro de este compromiso, el de avanzar en la transición energética, Isagen ha decidido trabajar para evitar el aumento neto de Gases de Efecto Invernadero (GEI) para alcanzar el estado de carbono neutralidad."
+      },
+      {
+        "parrafo": "En la actualidad, las metas de  la compañía están alineadas con del Acuerdo de París que tiene como objetivo limitar el aumento de la temperatura global a menos de 2 grados centígrados, y alcanzar en el 2050 la neutralidad climática."
+      },
+      {
+        "parrafo": "En este propósito, la compañía cuenta con 19 de sus 22 centrales de generación en operación registradas en programas de mitigación de emisiones de carbono. Precisamente, la intensidad de las emisiones de los proyectos adelantados por la empresa es 99% menor al promedio sectorial mundial, contribuyendo de esta manera al objetivo de una transición sostenible."
+      },
+      {
+        "parrafo": "En la región Caribe se encuentran ubicados importantes proyectos de energía renovable de bajas emisiones de carbono que le permiten emitir Certificados de Reducción de Emisiones (CER) con un potencial de producir anualmente más de 200 mil CER. Estos proyectos son: los parques eólicos Guajira I y Wesp 01 en en La Guajira y los cinco parques solares de Sabanalarga en el  Atlántico."
+      },
+      {
+        "parrafo": "Con estos proyectos de fuentes no convencionales de energías renovables, Isagen lidera la transición energética, que aporta a la descarbonización de la economía, como principal herramienta de mitigación frente al cambio climático."
+      },
+      {
+        "parrafo": "Más energía verde"
+      },
+      {
+        "parrafo": "Isagen es la única generadora en el país que actualmente aporta energía, proveniente de los parques eólicos, al Sistema Interconectado Nacional (SIN).  En total son 32 megavatios que genera; Guajira I con 20 MW y Wesp 01 con 12 MW. “Esto es un hito en el país en materia de avance hacia la transición energética”, asegura la compañía."
+      },
+      {
+        "parrafo": "La Guajira, es sin duda un punto privilegiado de la geografía colombiana para la construcción de estos parques eólicos, la fuerza de los vientos y su excelente ubicación, son características que han hecho que en esta zona del país siga siendo el sitio ideal para seguir invirtiendo en más proyectos energéticos. Esto sin duda es una gran oportunidad para aumentar su oferta de energía renovable y aportar en el desarrollo socioeconómico de esta región."
+      },
+      {
+        "parrafo": "Es por esta razón, que actualmente adelantan un estudio de viabilidad para la construcción de un parque eólico con una capacidad de 300 MW. Este proyecto ya cuenta con la licencia ambiental, por parte de la Autoridad Nacional de Licencias Ambientales (Anla)."
+      },
+      {
+        "parrafo": "No hay que desconocer que en esta región hay retos por superar, y  confían que el Gobierno de las garantías para seguir invirtiendo en esta región. Es indispensable la gestión del Gobierno para resolver los retos presentes en el territorio y brindar las garantías jurídicas que permitan avanzar de manera más ágil en el objetivo de transición que tiene el país”, indicó Isagen."
+      },
+      {
+        "parrafo": "Desde el Atlántico los cinco parques que conforman Bosques Solares de Bolívar ubicado en Sabanalarga –próximo a inaugurar– le aportarán al SIN 100 MW.  Un aporte significativo teniendo en cuenta que esta capacidad de energía, podría abastecer en un año a una ciudad de más de 400 mil  habitantes."
+      },
+      {
+        "parrafo": "Otro importante aporte de energía solar proviene de los complejos Llanos 1 a 5 (100 MW) en el departamento del Meta."
+      },
+      {
+        "parrafo": "Además, la Central San Carlos, la mayor con 1.240 MW, ubicada en Antioquia, tiene el reconocimiento de que su energía es verde por estar certificada con el sello I-REC (Renewable Energy Certificate)."
+      },
+      {
+        "parrafo": "Futuros proyectos"
+      },
+      {
+        "parrafo": "En su compromiso por fortalecer su matriz de generación verde y contribuir con la transición energética, Isagen tiene una proyección de crecimiento en otros 3 mil megavatios de energías renovables en los próximos 10 años."
+      },
+      {
+        "parrafo": "En esa línea, la región Caribe por su gran potencial es el epicentro para continuar desarrollando nuevos proyectos de generación solar. Se estima que más de 3 millones de dólares se invertirán con el objetivo de “explotar el potencial de electrificación de la en Colombia, como mecanismo de desarrollo social sostenible”, explica Isagen."
+      },
+      {
+        "parrafo": "Actualmente, se estudian nuevos proyectos solares en los departamentos de Córdoba, Sucre y otras zonas de la Costa."
+      },
+      {
+        "parrafo": "Reducción GEI"
+      },
+      {
+        "parrafo": "Desde hace más de una década, la compañía consciente en su responsabilidad frente al cambio climático, dado el impacto que la generación de energía tiene en el planeta, viene implementando acciones de medición, mitigación y adaptación, identificando los riesgos físicos y financieros inherentes y determinar su impacto."
+      },
+      {
+        "parrafo": "Para ello tienen varias líneas estratégicas dentro de un plan consolidado de mitigación y adaptación al cambio climático. Estas líneas se enfocan en la cuantificación y transferencia del riesgo climático, educación ambiental, eficiencia energética, huella de carbono, protección de cuencas, estándares para verificar y certificar créditos de carbono, además de estar en permanentemente investigación sobre la ciencia y la gobernanza del cambio climático."
+      },
+      {
+        "parrafo": "Teniendo en cuenta las cifras del Foro Económico Mundial (WEF, por sus siglas en inglés) el consumo y la producción de energía en el planeta representa alrededor de dos tercios de la emisión de Gases Efecto Invernadero (GEI)."
+      },
+      {
+        "parrafo": "Ante este panorama, Isagen en su compromiso de sostenibilidad que implica caminar hacia la transición energética, hará una compensación voluntaria de sus emisiones residuales de los alcances 1 y 2 del GHG protocolo (estándar internacional que mide y gestiona las emisiones de gases de efecto invernadero)."
+      },
+      {
+        "parrafo": "Cabe recalcar que el alcance 1 está relacionado con las emisiones directas de GEI, mientras que el alcance 2, son las emisiones indirectas de GEI asociadas a la electricidad."
+      },
+      {
+        "parrafo": "Además, Isagen realiza estudios de alta relevancia para determinar impactos del cambio climático en sus operaciones, destacando en 2024 el estudio que evaluará el impacto del cambio climático de variables relevantes para el potencial eólico y solar."
+      },
+      {
+        "parrafo": "Responsabilidad ambiental"
+      },
+      {
+        "parrafo": "A través de la construcción y actualización de diversos  planes de gestión que exige la Autoridad Nacional de Licencias Ambientales (Anla) Isagen cumple con todos los compromisos de ley."
+      },
+      {
+        "parrafo": "En ese sentido, 16.738 hectáreas son protegidas desde el componente ambiental, en las áreas de influencia de sus proyectos energéticos como acción estratégica y complementaria de la gestión integral que implica ser parte de la transición energética, señaló Inés Elvira Vélez, Coordinadora Relaciones Corporativas."
+      },
+      {
+        "parrafo": "Explicó que las áreas se encuentran distribuidas en diferentes municipios de los departamentos de Antioquia, Santander, Caldas y Tolima, donde la empresa opera sus centrales hidroeléctricas."
+      },
+      {
+        "parrafo": "En estas áreas, Isagen desarrolla diversas actividades de conservación tales como: vigilancia permanente a través de guardabosques, construcción de cercos para delimitar las áreas, monitoreo de fauna y flora, acciones de restauración ecológica, entre otros. Estas actividades son ejecutadas mediante empresas contratistas locales y con la participación mayoritaria de trabajadores que pertenecen a las comunidades de las áreas de influencia de dichos proyectos, añadió."
+      },
+      {
+        "parrafo": "Reglas claras"
+      },
+      {
+        "parrafo": "La falta de claridad, confianza y estabilidad jurídica en el sector energético para la ejecución de nuevas inversiones que se requieren para avanzar en la transición energética, son algunas de las  situaciones que crean incertidumbre en el sector energético del país."
+      },
+      {
+        "parrafo": "Para Camilo Marulanda, presidente de Isagen, es necesario crear espacios de diálogo con el Gobierno para buscar soluciones efectivas para el sector, “necesitamos expansión y soluciones verdaderamente efectivas para estos problemas puntuales\"."
+      },
+      {
+        "parrafo": "Sostuvo que se requiere acelerar los procesos de las licencias ambientales y los trámites para sacar adelante los proyectos, pero sobre todo brindar confianza a las empresas interesadas en invertir en Colombia, “hay que darles más de confort, ser claro con las reglas para que inviertan tranquilos”, indicó."
+      },
+      {
+        "parrafo": "Explicó que en la última reforma tributaria se eliminó el 70% de los incentivos que para invertir en viento y sol, \"algo contradictorio teniendo en cuenta que la bandera máxima del Gobierno es el tema de transición energética\"."
+      },
+      {
+        "parrafo": "Con respecto al aumento de la oferta, señaló que en los últimos 5 años solo ha entrado el 20% de los proyectos planeados. Se necesita contar con más oferta para cubrir la demanda y cumplir con los objetivos de la transición\"."
+      },
+      {
+        "parrafo": "Para Isagen, se necesita de una gestión efectiva por parte del Gobierno  a través de los ministerios de Minas y Energía; del Interior y Ambiente y Desarrollo Sostenible,  para la resolución de los \"retos de tipo ambiental, social y de infraestructura -conexión y transmisión- que retrasan el plan de transición en el país”."
+      },
+      {
+        "parrafo": "Matriz energética"
+      },
+      {
+        "parrafo": "Isagen a la fecha cuenta con cinco centrales hidráulicas de embalses y diez a filo de agua, ubicadas en los departamentos de Antioquia, Caldas, Santander y Tolima; cinco proyectos solares en los departamentos del Meta y Atlántico y dos parques eólicos en La Guajira, que aporta en total una Capacidad Efectiva Neta de más de 3.000 megavatios."
+      }
+    ]
+  }
+]

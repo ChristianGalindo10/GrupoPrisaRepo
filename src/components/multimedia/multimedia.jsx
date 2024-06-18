@@ -2,7 +2,7 @@ import "./multimedia.css";
 const Multimedia = () => {
     return (
         <>
-            <h3>Multimedia</h3>
+            <h3>Galería</h3>
             <div className="gallery-container">
                 <div className="gallery-item" style={{backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/GreenMountainWindFarm_Fluvanna_2004.jpg/350px-GreenMountainWindFarm_Fluvanna_2004.jpg')",
                     backgroundSize: 'cover'
