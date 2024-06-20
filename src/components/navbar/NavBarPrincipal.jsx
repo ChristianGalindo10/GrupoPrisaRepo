@@ -12,8 +12,17 @@ import facebook from "../../assets/icons/icon_facebook.png";
 import instagram from "../../assets/icons/icon_instagram.png";
 import linkedin from "../../assets/icons/icon_linkedin.png";
 import youtube from "../../assets/icons/icon_youtube.png";
+import IconSlider from "../iconSlider/iconSlider";
 
 const NavbarPrincipal = () => {
+  const icons = [
+    { src: esri, alt: "Icon 3" },
+    { src: celsia, alt: "Icon 1" },
+    { src: ecopetrol, alt: "Icon 2" },
+    { src: enel, alt: "Icon 3" },
+    { src: epm, alt: "Icon 1" },
+    { src: isagen, alt: "Icon 2" },
+  ];
   return (
     <>
       <div className="container-fluid p-0 nav-bar">
@@ -22,56 +31,25 @@ const NavbarPrincipal = () => {
             to="/"
             className="navbar-brand px-lg-4 m-0"
             activeClassName="active"
+            id="header-img"
           >
             <img src={logoCaribe} />
+          </NavLink>
+          <NavLink
+            to="/"
+            className="navbar-brand px-lg-4 m-0"
+            activeClassName="active"
+          >
+            <h1 id="header-title" className="font-weight-bold">
+              Caribe Potencia Energética{" "}
+            </h1>
           </NavLink>
           <div
             className="collapse navbar-collapse justify-content-between"
             id="nav-images"
           >
             <div className="navbar-nav ml-auto p-4">
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={esri} style={{width: '100%'}} />
-              </NavLink>
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={celsia} />
-              </NavLink>
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={ecopetrol} />
-              </NavLink>
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={enel} />
-              </NavLink>
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={epm} />
-              </NavLink>
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={isagen} />
-              </NavLink>
+              <IconSlider icons={icons} />
             </div>
           </div>
         </nav>
@@ -133,35 +111,105 @@ const NavbarPrincipal = () => {
               >
                 DEPARTAMENTOS
               </NavLink>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  DEPARTAMENTOS
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    Atlántico
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    Bolívar
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    Cesar
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    Cordoba
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    La Guajira
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    Magdalena
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    Sucre
+                  </NavLink>
+                  <NavLink
+                    to="/mapas/general"
+                    class="dropdown-item"
+                    activeClassName="active"
+                  >
+                    San Andrés y Providencia
+                  </NavLink>
+                </div>
+              </li>
               <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
-                activeClassName="active"
               >
                 RENOVABLES
               </NavLink>
               <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
-                activeClassName="active"
               >
                 NO RENOVABLES
               </NavLink>
               <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
-                activeClassName="active"
               >
                 INFRAESTRUCTURA
               </NavLink>
               <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
-                activeClassName="active"
               >
                 QUIÉNES SOMOS
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
                 activeClassName="active"
@@ -218,7 +266,7 @@ const NavbarPrincipal = () => {
                 >
                   <img src={youtube} />
                 </NavLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

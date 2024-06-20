@@ -1,0 +1,32 @@
+.icon-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .icon-track {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: calc(200%); /* Cambia el ancho del contenedor para que el efecto sea continuo */
+    justify-content: space-evenly;
+  }
+  
+  .icon-item {
+    flex: 0 0 auto;
+    padding: 10px;
+  }
+  
+  .icon-item img {
+    width: 100%; /* Ajusta el tamaño de los íconos según tus necesidades */
+    /*height: 50px;*/
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%); /* Mueve el contenedor la mitad del ancho para el efecto de bucle */
+    }
+  }
+  
