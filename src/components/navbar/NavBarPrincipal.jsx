@@ -93,24 +93,6 @@ const NavbarPrincipal = () => {
               >
                 CARIBE
               </NavLink>
-              <NavLink
-                to="/"
-                className="nav-item nav-link"
-                activeClassName="active2"
-                onClick={() => {
-                  setTimeout(() => {
-                    const anchor = document.querySelector(
-                      "#departamentos-section"
-                    );
-                    anchor.scrollIntoView({
-                      behavior: "smooth",
-                      block: "center",
-                    });
-                  }, 100);
-                }}
-              >
-                DEPARTAMENTOS
-              </NavLink>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -209,64 +191,18 @@ const NavbarPrincipal = () => {
               >
                 QUIÉNES SOMOS
               </NavLink>
-              {/* <NavLink
+              <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
-                activeClassName="active"
               >
-                <img src={facebook} />
+                POTENCIAL
               </NavLink>
               <NavLink
                 to="/mapas/general"
                 className="nav-item nav-link"
-                activeClassName="active"
               >
-                <img src={instagram} />
+                MAPAS
               </NavLink>
-              <NavLink
-                to="/mapas/general"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={linkedin} />
-              </NavLink>
-              <NavLink
-                to="/mapas/general"
-                className="nav-item nav-link"
-                activeClassName="active"
-              >
-                <img src={youtube} />
-              </NavLink>
-              <div id="redes-mobile">
-                <NavLink
-                  to="/mapas/general"
-                  className="nav-item nav-link"
-                  activeClassName="active"
-                >
-                  <img src={facebook} />
-                </NavLink>
-                <NavLink
-                  to="/mapas/general"
-                  className="nav-item nav-link"
-                  activeClassName="active"
-                >
-                  <img src={instagram} />
-                </NavLink>
-                <NavLink
-                  to="/mapas/general"
-                  className="nav-item nav-link"
-                  activeClassName="active"
-                >
-                  <img src={linkedin} />
-                </NavLink>
-                <NavLink
-                  to="/mapas/general"
-                  className="nav-item nav-link"
-                  activeClassName="active"
-                >
-                  <img src={youtube} />
-                </NavLink>
-              </div> */}
             </div>
           </div>
         </nav>
