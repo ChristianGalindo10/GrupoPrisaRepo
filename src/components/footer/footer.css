@@ -30,13 +30,23 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 650px){
+#footer-images a {
+  padding: 5px;
+ }
+ 
+
+#footer-images a img{
+ width: 100%;
+}
+
+/* @media screen and (max-width: 650px){
   #footer-images a img{
     width: 10vw;
   }
-}
+} */
 
 
 @media only screen and (max-width: 960px) {
@@ -149,3 +159,4 @@
     flex-direction: row;
   }
 }
+

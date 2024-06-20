@@ -1,22 +1,32 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-import esri from "../../assets/icons/esri.png";
-import celsia from "../../assets/icons/celsia.png";
-import ecopetrol from "../../assets/icons/ecopetrol.png";
-import enel from "../../assets/icons/enel.png";
-import epm from "../../assets/icons/epm.png";
-import isagen from "../../assets/icons/isagen.png";
+import esri from "../../assets/icons/f_esri.png";
+import aecom from "../../assets/icons/f_aecom.png";
+import ecopetrol from "../../assets/icons/f_ecopetrol.png";
+import enel from "../../assets/icons/f_enel.png";
+import aes from "../../assets/icons/f_aes.png";
+import isagen from "../../assets/icons/f_isagen.png";
+import prisa from "../../assets/icons/f_prisa.png";
+import footer_complemento from "../../assets/icons/footer_complemento.png";
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="container-fluid footer text-white mt-5 px-0 position-relative overlay-top">
+    <div className="container-fluid footer text-white mt-5 px-0 position-relative overlay-top" style={{paddingBottom: 0}}>
       <div
-        className="container-fluid text-center text-white border-top py-4"
+        className="container-fluid text-center text-white py-4"
         style={{ borderColor: "rgba(256, 256, 256, .1) !important" }}
       >
         <div className="justify-content-between">
+          <p style={{fontSize: '23px', fontWeight: 600, marginBottom: 0}}>Una Iniciativa de:</p>
           <div className="ml-auto p-4" id="footer-images">
+          <NavLink
+              to="/"
+              className="nav-item nav-link"
+              activeClassName="active"
+            >
+              <img src={prisa}/>
+            </NavLink>
             <NavLink
               to="/"
               className="nav-item nav-link"
@@ -29,7 +39,14 @@ const Footer = () => {
               className="nav-item nav-link"
               activeClassName="active"
             >
-              <img src={celsia} />
+              <img src={isagen} />
+            </NavLink>
+            <NavLink
+              to="/"
+              className="nav-item nav-link"
+              activeClassName="active"
+            >
+              <img src={aecom} />
             </NavLink>
             <NavLink
               to="/"
@@ -50,19 +67,15 @@ const Footer = () => {
               className="nav-item nav-link"
               activeClassName="active"
             >
-              <img src={epm} />
-            </NavLink>
-            <NavLink
-              to="/"
-              className="nav-item nav-link"
-              activeClassName="active"
-            >
-              <img src={isagen} />
+              <img src={aes} />
             </NavLink>
           </div>
+          
         </div>
       </div>
-      <div className="row mx-0 px-sm-3 px-lg-5"></div>
+      <div>
+            <img src={footer_complemento} style={{width: '100%'}}/>
+          </div>
     </div>
   );
 };
