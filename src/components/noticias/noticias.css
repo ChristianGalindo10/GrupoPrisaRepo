@@ -1,0 +1,28 @@
+#noticias-section img {
+  width: 62%;
+  height: 200px;
+}
+
+#noticias-section p {
+  width: 33%;
+}
+
+#noticias-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.noticias-article {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  #noticias-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
