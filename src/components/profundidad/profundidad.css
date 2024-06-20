@@ -1,0 +1,41 @@
+#destacado-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgba(255, 248, 229, 1);
+  padding: 8%;
+}
+
+#destacado-section h3{
+    border-bottom: 2px solid black;
+  }
+
+#destacado-img {
+  width: 62%;
+}
+
+#destacado-txt {
+  width: 33%;
+}
+
+#destacado-img img {
+  width: 100%;
+}
+
+#profundidad-titulo{
+    font-weight: lighter !important;
+}
+
+@media (max-width: 600px) {
+  #destacado-section {
+    display: block;
+  }
+
+  #destacado-img {
+    width: 100%;
+  }
+
+  #destacado-txt {
+    width: 100%;
+  }
+}

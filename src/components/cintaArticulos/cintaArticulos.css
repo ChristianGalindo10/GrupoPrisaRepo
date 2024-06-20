@@ -2,6 +2,14 @@
     width: 100%;
 }
 
+#cinta-articulos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
 @media (max-width: 600px) {
     #cinta-articulos {
       grid-template-columns: 1fr;
@@ -10,10 +18,14 @@
 
 }
 
-#cinta-articulos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 10px;
-    padding: 10px 0;
+
+
+  .antetitulo{
+    display: block;
+    margin: 5px 0;
+    color: white;
+    border-radius: 10px;
+    width: max-content;
+    text-align: center;
+    padding: 0 5px;
   }

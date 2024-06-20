@@ -1,0 +1,9 @@
+.text-divider {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-divider > div {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}

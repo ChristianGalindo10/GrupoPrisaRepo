@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./noticias.css";
 
-const Noticias = ({data}) => {
+const Noticias = ({ data }) => {
   return (
     <div>
       <h3>Noticias</h3>
@@ -14,7 +14,15 @@ const Noticias = ({data}) => {
             >
               <div className="noticias-article" key={noticia.id}>
                 <img src={noticia.img} />
-                <p>{noticia.titulo}</p>
+                <div id="noticia-texto">
+                  <span
+                    className="antetitulo"
+                    style={{ background: noticia.color }}
+                  >
+                    {noticia.antetitulo}
+                  </span>
+                  <p>{noticia.titulo}</p>
+                </div>
               </div>
             </NavLink>
           );

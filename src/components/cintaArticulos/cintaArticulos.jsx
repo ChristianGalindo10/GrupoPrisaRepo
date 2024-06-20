@@ -7,6 +7,7 @@ const CintaArticulos = ({ data }) => {
         return (
           <div className="cinta-articulos-articulo">
             <img src={item.img} />
+            <span className="antetitulo" style={{background: item.color}}>{item.antetitulo}</span>
             <p>
               {item.desc}
             </p>

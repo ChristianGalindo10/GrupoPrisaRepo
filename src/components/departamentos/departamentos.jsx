@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./departamentos.css";
 
-import atlantico from "../../assets/icons/Atlántico-100 1.jpg";
+import atlantico from "../../assets/icons/ATLÁNTICO-100 1.jpg";
 import cartagena from "../../assets/icons/Cartagena-100.jpg";
 import cordoba from "../../assets/icons/Cordoba.png";
 import guajira from "../../assets/icons/Guajira-100.jpg";
@@ -23,10 +23,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={atlantico}
-                        alt="Atlántico"
+                        alt="ATLÁNTICO"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Atlántico</h5>
+                        <h5 class="card-title">ATLÁNTICO</h5>
                       </div>
                     </div>
                   </NavLink>
@@ -38,10 +38,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={cartagena}
-                        alt="Bolívar"
+                        alt="BOLÍVAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Bolívar</h5>
+                        <h5 class="card-title">BOLÍVAR</h5>
                       </div>
                     </div>
                   </NavLink>
@@ -53,10 +53,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={valledupar}
-                        alt="Cesar"
+                        alt="CESAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Cesar</h5>
+                        <h5 class="card-title">CESAR</h5>
                       </div>
                     </div>
                   </NavLink>
@@ -68,10 +68,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={cordoba}
-                        alt="Córdoba"
+                        alt="CÓRDOBA"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Córdoba</h5>
+                        <h5 class="card-title">CÓRDOBA</h5>
                         
                       </div>
                     </div>
@@ -85,10 +85,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={guajira}
-                        alt="Atlántico"
+                        alt="ATLÁNTICO"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">La Guajira</h5>
+                        <h5 class="card-title">LA GUAJIRA</h5>
                         
                       </div>
                     </div>
@@ -101,10 +101,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={santaMarta}
-                        alt="Bolívar"
+                        alt="BOLÍVAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Magdalena</h5>
+                        <h5 class="card-title">MAGDALENA</h5>
                         
                       </div>
                     </div>
@@ -117,10 +117,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={sincelejo}
-                        alt="Cesar"
+                        alt="CESAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Sucre</h5>
+                        <h5 class="card-title">SUCRE</h5>
                         
                       </div>
                     </div>
@@ -133,11 +133,11 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={sanAndres}
-                        alt="Córdoba"
+                        alt="CÓRDOBA"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">
-                          Archipiélago de San Andrés y Providencia
+                          ARCHIPIÉLAGO DE SAN ANDRÉS Y PROVIDENCIA
                         </h5>
                         
                       </div>
@@ -184,10 +184,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={atlantico}
-                        alt="Atlántico"
+                        alt="ATLÁNTICO"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Atlántico</h5>
+                        <h5 class="card-title">ATLÁNTICO</h5>
                         
                       </div>
                     </div>
@@ -200,10 +200,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={cartagena}
-                        alt="Bolívar"
+                        alt="BOLÍVAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Bolívar</h5>
+                        <h5 class="card-title">BOLÍVAR</h5>
                         
                       </div>
                     </div>
@@ -217,10 +217,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={valledupar}
-                        alt="Cesar"
+                        alt="CESAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Cesar</h5>
+                        <h5 class="card-title">CESAR</h5>
                         
                       </div>
                     </div>
@@ -233,10 +233,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={cordoba}
-                        alt="Córdoba"
+                        alt="CÓRDOBA"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Córdoba</h5>
+                        <h5 class="card-title">CÓRDOBA</h5>
                         
                       </div>
                     </div>
@@ -250,10 +250,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={guajira}
-                        alt="Atlántico"
+                        alt="ATLÁNTICO"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">La Guajira</h5>
+                        <h5 class="card-title">LA GUAJIRA</h5>
                         
                       </div>
                     </div>
@@ -265,10 +265,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={santaMarta}
-                        alt="Bolívar"
+                        alt="BOLÍVAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Magdalena</h5>
+                        <h5 class="card-title">MAGDALENA</h5>
                         
                       </div>
                     </div>
@@ -282,10 +282,10 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={sincelejo}
-                        alt="Cesar"
+                        alt="CESAR"
                       />
                       <div class="card-img-overlay">
-                        <h5 class="card-title">Sucre</h5>
+                        <h5 class="card-title">SUCRE</h5>
                         
                       </div>
                     </div>
@@ -298,11 +298,11 @@ const Departamentos = () => {
                       <img
                         class="card-img"
                         src={sanAndres}
-                        alt="Córdoba"
+                        alt="CÓRDOBA"
                       />
                       <div class="card-img-overlay">
                         <h5 class="card-title">
-                          Archipiélago de San Andrés y Providencia
+                          ARCHIPIÉLAGO DE SAN ANDRÉS Y PROVIDENCIA
                         </h5>
                         
                       </div>

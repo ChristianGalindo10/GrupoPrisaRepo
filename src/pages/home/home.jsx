@@ -5,6 +5,7 @@ import proyectosBanner from "../../assets/icons/proyectosBanner.png";
 import potencialBanner from "../../assets/icons/potencialBanner.png";
 import generalBanner from "../../assets/icons/generalBanner.png";
 import Multimedia from "../../components/multimedia/multimedia";
+import noticias2 from "../../assets/icons/noticias2.png";
 import noticias3 from "../../assets/icons/noticias3.png";
 import caribe1 from "../../assets/icons/caribe1.png";
 import caribe2 from "../../assets/icons/caribe2.png";
@@ -12,28 +13,39 @@ import caribe3 from "../../assets/icons/caribe3.png";
 import destacado from "../../assets/icons/destacado.png";
 import destacado2 from "../../assets/icons/destacado2.png";
 import dataOpinion from "../../components/opinion/data.json";
-import dataNoticias from "../../components/noticias/data.json";
+import dataNoticias from "../../components/noticias/data";
 import Destacados from "../../components/destacados/destacados";
 import CintaArticulos from "../../components/cintaArticulos/cintaArticulos";
 import Departamentos from "../../components/departamentos/departamentos";
 import Noticias from "../../components/noticias/noticias";
+import Profundidad from "../../components/profundidad/profundidad";
+import Opinion from "../../components/opinion/opinion";
+import TextDivider from "../../components/textDivider/textDivider";
+import { color } from "highcharts";
 
 const dataDestacados = [
   {
-    to: "https://www.caf.com/es/actualidad/noticias/2024/06/caf-destaca-el-potencial-de-america-latina-y-el-caribe-para-la-produccion-de-energia-limpia-barata-y-estable/",
-    img: "https://www.caf.com/media/4669107/red-2024-portada.png?anchor=center&mode=crop&width=960&height=640&format=webp&quality=80&rnd=133627487370000000",
-    titulo: "CAF destaca el potencial de América Latina y el Caribe para la producción de energía limpia, barata y estable",
-    desc: "El nuevo Reporte de Economía y Desarrollo de CAF titulado Energías renovadas: Transición energética justa para el desarrollo sostenible aborda los desafíos simultáneos de hacer crecer el ingreso por habitante de manera considerable y sostenible, disminuir los niveles de emisiones y reducir la desigualdad en los próximos años."
-  },
-  {
-    to: "https://investigaciones.corfi.com/documents/38211/0/11-06-2024+Informe+de+din%C3%A1mica+sectorial+-+Energ%C3%ADa.pdf/97a4be6a-9d1c-c6b7-bef4-e927c7774935?t=1718223531786",
-    img: destacado2,
-    titulo: "La demanda y generación de energía han mostrado un comportamiento favorable en el inicio del año. Ante el recrudecimiento del fenómeno de El Niño, la generación térmica ha cobrado mayor relevancia. Esperamos un crecimiento de 2,8% en 2024."
+    to: "/",
+    img: "https://estaticos.elcolombiano.com/binrepository/780x1170/0c0/780d565/none/11101/MSFA/ricardo-sierra-lider-de-celsia-10_45304754_20240608133543.jpg",
+    titulo: "“Preocupa que está faltando energía en el país”: Ricardo Sierra, presidente de Celsia",
+    desc: "El empresario le pidió al Gobierno Nacional señales regulatorias claras para que llegue la inversión que el desarrollo energético necesita, unos US$7.000 millones.",
+    antetitulo: "",
+    color: "rgba(80, 166, 56, 1)"
   },
   {
     to: "/",
-    img: noticias3,
-    titulo: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    img: noticias2,
+    titulo: "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrá conectar a la red nacional",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate  pulvinar porta. Pellentesque vel iaculis nisi. Sed pellentesque sem  vitae neque commodo, at imperdiet ex ullamcorper",
+    antetitulo: "LA GUAJIRA",
+    color: "rgba(80, 166, 56, 1)"
+  },
+  {
+    to: "/",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkI8rEVQkrF1KmxGUNaZTspjW1N3M1VuOOaA&s",
+    titulo: "Consumo de petróleo, gas y carbón se mantendrá alto en el mundo ¿qué pasa con la transición energética?",
+    antetitulo: "NO RENOVABLES",
+    color: "rgba(31, 100, 191, 1)"
   }
 ]
 
@@ -41,17 +53,23 @@ const dataCintaArticulos = [
   {
     to: "/",
     img: caribe1,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    desc: "Consumo de energía aumentó en Colombia, con mayor demanda en el Caribe",
+    color: "rgba(31, 100, 191, 1)",
+    antetitulo: "CARIBE"
   },
   {
     to: "/",
     img: caribe2,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    desc: "Los gobernadores del Caribe confirman la creación de empresa con énfasis en energías limpias",
+    color: "rgba(31, 100, 191, 1)",
+    antetitulo: "CARIBE"
   },
   {
     to: "/",
     img: caribe3,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    desc: "Las bondades del Caribe para ser epicentro de energías limpias",
+    color: "rgba(80, 166, 56, 1)",
+    antetitulo: "ATLÁNTICO"
   }
 ]
 
@@ -98,18 +116,13 @@ const Home = () => {
   return (
     <div className="Home" id="Home">
       <div className="home-main-background">
-        <Link to={gif[gifI]?.link_url}>
-          <div className="home-main-title-overlay">
-            <h2 className="display-2 text-white m-0">
-              Caribe Potencia Energética
-            </h2>
-            <br />
-            <h2 class="text-white m-0">* Colombia 2024 *</h2>
-            {/* <Link style={{textDecoration: 'none'}} to={gif[gifI]?.link_url}><p className="bienvenido"><span style={{ fontWeight: 'bold' }}>Caribe Potencia Energética</span></p></Link> */}
-          </div>
-        </Link>
-        <Link style={{ width: "100%" }} to={gif[gifI]?.link_url}>
+        <Link style={{ width: "100%", position: 'relative' }} to={gif[gifI]?.link_url}>
           <img src={gif[gifI]?.img_url} alt="plano escaneado" />
+          <div className="home-main-title-overlay">
+            <h2 className="m-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </h2>
+          </div>
         </Link>
         {/* <img src={region} alt="marca de agua Construyendo Civilidad"></img> */}
       </div>
@@ -150,48 +163,20 @@ const Home = () => {
       ></iframe>
       <br />
       <br />
+      <Profundidad data={
+          {
+            img: "https://www.minenergia.gov.co/media/images/El_ingeniero_Andres_Camacho_se_posesiona_como_n.original.jpg",
+            titulo: "“La meta del Gobierno Nacional es producir un millón de barriles de petróleo diarios”",
+            desc: "El ministro de Minas y Energía, Omar Andrés Camacho resaltó que una de las claves para que Ecopetrol mejore sus utilidades es la diversificación de su producción."
+          }
+        }></Profundidad>
       <div className="home-content">
-        <div id="destacado-section">
-          <div id="destacado-img">
-            <img src={destacado} />
-          </div>
-          <div id="destacado-txt">
-            <h4>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
-            </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              vulputate pulvinar porta. Pellentesque vel iaculis nisi. Sed
-              pellentesque sem vitae neque commodo, at imperdiet ex ullamcorper.
-            </p>
-          </div>
-        </div>
         <br />
         <br />
         <Multimedia></Multimedia>
         <br />
         <br />
-        <div>
-          <h3>Opinión</h3>
-          <div id="columnistas-section">
-            {dataOpinion.map((item) => {
-              return (
-                <NavLink
-                  style={{ textDecoration: "none" }}
-                  to={"/opinion/" + item.id}
-                >
-                  <div className="columnistas-article" key={item.id}>
-                    <img src={item.img} />
-                    <br />
-                    <h5>{item.titulo}</h5>
-                    <p>{item.desc}</p>
-                  </div>
-                </NavLink>
-              );
-            })}
-          </div>
-        </div>
+        <Opinion data={dataOpinion}></Opinion>
         <br />
         <br />
       </div>

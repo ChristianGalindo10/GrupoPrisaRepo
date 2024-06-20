@@ -18,7 +18,7 @@ const Footer = () => {
         style={{ borderColor: "rgba(256, 256, 256, .1) !important" }}
       >
         <div className="justify-content-between">
-          <p style={{fontSize: '23px', fontWeight: 600, marginBottom: 0}}>Una Iniciativa de:</p>
+          <p style={{fontSize: '23px', fontWeight: 600, marginBottom: 0, color: 'white'}}>Una Iniciativa de:</p>
           <div className="ml-auto p-4" id="footer-images">
           <NavLink
               to="/"

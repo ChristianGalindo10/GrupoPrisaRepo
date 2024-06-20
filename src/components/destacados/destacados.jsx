@@ -17,9 +17,11 @@ const Destacados = ({data}) => {
                   data[0].img
                 }
               />
-              <h4 style={{ fontWeight: "bold" }}>
+              <span className="antetitulo" style={{background: data[0].color}}>{data[0].antetitulo}</span>
+              <h3 style={{ fontWeight: "bold", border: 'none' }}>
                 {data[0].titulo}
-              </h4>
+              </h3>
+              <br/>
               <p>
                 {data[0].desc}
               </p>
@@ -35,6 +37,7 @@ const Destacados = ({data}) => {
               target="_blank"
             >
               <img src={data[1].img} />
+              <span className="antetitulo" style={{background: data[1].color}}>{data[1].antetitulo}</span>
               <h5 style={{ fontWeight: "bold" }}>
                 {data[1].titulo}
               </h5>
@@ -42,6 +45,7 @@ const Destacados = ({data}) => {
           </div>
           <div class="right-bottom">
             <img src={data[2].img} />
+            <span className="antetitulo" style={{background: data[2].color}}>{data[2].antetitulo}</span>
             <h5 style={{ fontWeight: "bold" }}>
               {data[2].titulo}
             </h5>

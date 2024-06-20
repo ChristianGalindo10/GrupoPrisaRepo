@@ -3,7 +3,7 @@
   height: 200px;
 }
 
-#noticias-section p {
+#noticias-section #noticia-texto {
   width: 33%;
 }
 
@@ -25,4 +25,13 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
   }
+}
+
+.antetitulo{
+  display: block;
+  margin: 5px 0;
+  color: white;
+  border-radius: 10px;
+  width: max-content;
+  text-align: center;
 }

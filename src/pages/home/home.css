@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Lora&display=swap");
 
+body p{
+  font-weight: 500 !important;
+}
+
 .home-container {
   width: 100vw;
   overflow-x: hidden;
@@ -19,12 +23,33 @@
 }
 
 .home-main-title-overlay {
-  width: 100%;
+  width: 40%;
   position: absolute;
-  text-align: center;
+  text-align: left;
+  bottom: 10%;
+  left: 10%;
   z-index: 1;
   justify-content: center;
   display: block;
+  
+}
+
+.home-main-title-overlay h2{
+  color: rgba(255, 255, 255, 1);
+  font-weight: lighter !important;
+  letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 620px) {
+  .home-main-title-overlay {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1420px){
+  .home-main-title-overlay {
+    width: 35%;
+  }
 }
 
 .bienvenido {
@@ -441,59 +466,6 @@
 .card-img-overlay p{
   color: white;
   line-height: 1;
-}
-
-#destacado-section{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#destacado-img{
-  width: 62%;
-}
-
-#destacado-txt{
-  width: 33%;
-}
-
-#destacado-img img{
-  width: 100%;
-}
-
-@media (max-width: 600px) {
-  #destacado-section{
-    display: block;
-  }
-  
-  #destacado-img{
-    width: 100%;
-  }
-  
-  #destacado-txt{
-    width: 100%;
-  }
-}
-
-
-
-#columnistas-section{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
-  gap: 10px;
-  padding: 10px 0;
-}
-
-#columnistas-section img{
-  width: 100%;
-  height: 200px;
-}
-
-@media (max-width: 600px) {
-  #columnistas-section{
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 #videos-container{

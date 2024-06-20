@@ -44,3 +44,12 @@
     grid-row: auto;
   }
 }
+
+.antetitulo{
+  display: block;
+  margin: 5px 0;
+  color: white;
+  border-radius: 10px;
+  width: max-content;
+  text-align: center;
+}

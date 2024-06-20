@@ -1,0 +1,25 @@
+#columnistas-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+#columnistas-section img {
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  #columnistas-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.resume-text{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp:3
+}
