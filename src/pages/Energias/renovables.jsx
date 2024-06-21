@@ -62,7 +62,7 @@ const dataDestacados = [
     to: "/",
     img: noticias2,
     titulo:
-      "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrá conectar a la red nacional",
+      "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrán conectar a la red nacional",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate  pulvinar porta. Pellentesque vel iaculis nisi. Sed pellentesque sem  vitae neque commodo, at imperdiet ex ullamcorper",
     antetitulo: "LA GUAJIRA",
     color: "rgba(80, 166, 56, 1)",
@@ -94,7 +94,7 @@ const RenovablesPage = () => {
         <h3>Proyectos Actuales</h3>
       </div>
       <iframe
-        src={"https://arcg.is/1qbTD50"}
+        src={"https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=0e41ba45e6ba41d5a92f52bc4f6b36e7"}
         className="content_full_page"
       ></iframe>
       <br />
@@ -135,7 +135,7 @@ const RenovablesPage = () => {
       </div>
       <iframe
         src={
-          "https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=25c1dd00a01e4e859ec719d044b3f183"
+          "https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=457f892fe6bc48ed942fb1f7df813244"
         }
         className="content_full_page"
       ></iframe>

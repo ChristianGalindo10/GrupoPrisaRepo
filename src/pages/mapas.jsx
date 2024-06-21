@@ -37,7 +37,7 @@ const Mapas = () => {
             <section className="content_section">
               <iframe
                 src={
-                  "https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=25c1dd00a01e4e859ec719d044b3f183"
+                  "https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=457f892fe6bc48ed942fb1f7df813244"
                 }
                 className="content_full_page"
               ></iframe>
@@ -50,7 +50,7 @@ const Mapas = () => {
             <section className="content_section">
               <iframe
                 src={
-                  "https://arcg.is/1qbTD50"
+                  "https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=0e41ba45e6ba41d5a92f52bc4f6b36e7"
                 }
                 className="content_full_page"
               ></iframe>

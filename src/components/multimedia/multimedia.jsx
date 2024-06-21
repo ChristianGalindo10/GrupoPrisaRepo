@@ -13,7 +13,7 @@ const Multimedia = () => {
               backgroundSize: "cover",
             }}
           ></div>
-          <span style={{fontSize: '9px', textAlign: 'center'}}><i>La empresa Enel Green Power fue la encargada del megaproyecto que tiene una capacidad de 187 megavatios y una generación media de 420 GWh/año y se consolida como el más grande del país</i></span>
+          <span style={{fontSize: '11px', textAlign: 'center'}}>La empresa Enel Green Power fue la encargada del megaproyecto que tiene una capacidad de 187 megavatios y una generación media de 420 GWh/año y se consolida como el más grande del país</span>
         </div>
         <div>
           <div
@@ -24,7 +24,7 @@ const Multimedia = () => {
               backgroundSize: "cover",
             }}
           ></div>
-          <span style={{fontSize: '9px', textAlign: 'center'}}><i>Ecopetrol inauguró el primer parque eólico marino que hay en Colombia, se encuentra ubicado en La Guajira y ya comenzó a aportar energía a la red eléctrica nacional.</i></span>
+          <span style={{fontSize: '11px', textAlign: 'center'}}>Ecopetrol inauguró el primer parque eólico marino que hay en Colombia, se encuentra ubicado en La Guajira y ya comenzó a aportar energía a la red eléctrica nacional.</span>
         </div>
         <div>
           <div
@@ -35,7 +35,7 @@ const Multimedia = () => {
               backgroundSize: "cover",
             }}
           ></div>
-          <span style={{fontSize: '9px', textAlign: 'center'}}><i>Con la entrada de operación de esta nueva mina del Cerrejón se espera que se aumente la producción en un 30% este año.</i></span>
+          <span style={{fontSize: '11px', textAlign: 'center'}}>Con la entrada de operación de esta nueva mina del Cerrejón se espera que se aumente la producción en un 30% este año.</span>
         </div>
         <div>
           <div
@@ -46,7 +46,7 @@ const Multimedia = () => {
               backgroundSize: "cover",
             }}
           ></div>
-          <span style={{fontSize: '9px', textAlign: 'center'}}><i>Así se encuentra el embalse de Urrá en Córdoba, tras fuerte sequía que impacta al departamento. Directivas dicen que está garantizado el suministro de energía.</i></span>
+          <span style={{fontSize: '11px', textAlign: 'center'}}>Así se encuentra el embalse de Urrá en Córdoba, tras fuerte sequía que impacta al departamento. Directivas dicen que está garantizado el suministro de energía.</span>
         </div>
       </div>
     </>

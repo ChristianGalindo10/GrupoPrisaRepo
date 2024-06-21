@@ -33,9 +33,9 @@ const NavbarPrincipal = () => {
             activeClassName="active"
             id="header-img"
           >
-            <img src={logoCaribe} />
+            <img src={logoCaribe} style={{height: '100px'}}/>
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/"
             className="navbar-brand px-lg-4 m-0"
             activeClassName="active"
@@ -43,7 +43,7 @@ const NavbarPrincipal = () => {
             <h1 id="header-title" className="font-weight-bold">
               Caribe Potencia Energética{" "}
             </h1>
-          </NavLink>
+          </NavLink> */}
           <div
             className="collapse navbar-collapse justify-content-between"
             id="nav-images"
@@ -135,7 +135,7 @@ const NavbarPrincipal = () => {
                     class="dropdown-item"
                     activeClassName="active"
                   >
-                    Cordoba
+                    Córdoba
                   </NavLink>
                   <NavLink
                     to="/filtros/44"

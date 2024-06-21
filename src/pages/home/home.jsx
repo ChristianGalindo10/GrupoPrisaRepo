@@ -37,7 +37,7 @@ const dataDestacados = [
   {
     to: "/",
     img: noticias2,
-    titulo: "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrá conectar a la red nacional",
+    titulo: "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrán conectar a la red nacional",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate  pulvinar porta. Pellentesque vel iaculis nisi. Sed pellentesque sem  vitae neque commodo, at imperdiet ex ullamcorper",
     antetitulo: "LA GUAJIRA",
     color: "rgba(80, 166, 56, 1)"
@@ -114,7 +114,7 @@ const Home = () => {
         i = 0;
         setGifI(i);
       }
-    }, 2000);
+    }, 3000);
 
     return () => {
       clearInterval(gifInterval);
@@ -146,7 +146,7 @@ const Home = () => {
             Visión general del Caribe
           </h2>
       <iframe
-        src="https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=25c1dd00a01e4e859ec719d044b3f183"
+        src="https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=457f892fe6bc48ed942fb1f7df813244"
         style={{ width: "100%", height: "70vh" }}
       ></iframe>
       <br />
@@ -174,7 +174,7 @@ const Home = () => {
       <br />
       <br />
       <div className="home-content">
-        <Noticias data={dataNoticias}></Noticias>
+        <Noticias data={dataNoticias} title={"Noticias"}></Noticias>
       </div>
       <br />
       <h2
@@ -183,7 +183,7 @@ const Home = () => {
            Potencial eólico y solar del Caribe 
           </h2>
       <iframe
-        src="https://arcg.is/1qbTD50"
+        src="https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=0e41ba45e6ba41d5a92f52bc4f6b36e7"
         style={{ width: "100%", height: "80vh" }}
       ></iframe>
       <br />

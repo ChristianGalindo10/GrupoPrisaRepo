@@ -98,7 +98,7 @@ const dataDestacados = [
     to: "/",
     img: noticias2,
     titulo:
-      "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrá conectar a la red nacional",
+      "Con licencia ambiental de Colectora, más de 1.000 MW de energía eólica se podrán conectar a la red nacional",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate  pulvinar porta. Pellentesque vel iaculis nisi. Sed pellentesque sem  vitae neque commodo, at imperdiet ex ullamcorper",
     antetitulo: "LA GUAJIRA",
     color: "rgba(80, 166, 56, 1)",
@@ -144,6 +144,54 @@ const FiltrosPage = () => {
           {foundObject ? foundObject.label : "CARIBE"}
         </h3>
       </div>
+      {dep == "8" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/56f37c6f5f48438698eeab035a78d691"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "13" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/64cb586adc0844468a5321577e5ec187"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "20" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/3714210a24bd449cb028c8da73784bb1"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "23" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/7b3249bc19a14eb885c83665a15a59b5"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "44" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/081ebc13965748a283783445b50c4b98"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "47" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/845b015cb7074863bb30056cf9febb8a"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "70" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/ea9b5d7ce74944369cdfb4550f70a01d"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
+      {dep == "88" && (
+        <iframe
+          src="https://www.arcgis.com/apps/dashboards/5e195bb640b7459ca370fa1bdfddbf0b"
+          style={{ width: "100%", height: "100vh" }}
+        ></iframe>
+      )}
       <>
         {dep ? (
           <>
@@ -153,7 +201,7 @@ const FiltrosPage = () => {
             </div>
             <iframe
               src={
-                "https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=ed9e49bc595840428e4b5cd043721793"
+                "https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=0e41ba45e6ba41d5a92f52bc4f6b36e7"
               }
               className="content_full_page"
             ></iframe>
@@ -177,7 +225,6 @@ const FiltrosPage = () => {
             <div className="home-content">
               <Opinion data={dataOpinion}></Opinion>
             </div>
-            
           </>
         ) : (
           <>
