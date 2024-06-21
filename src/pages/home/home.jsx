@@ -131,7 +131,7 @@ const Home = () => {
       </div>
       <br />
       <h2
-            style={{textAlign: 'center', margin: '50px auto', width: '50%', borderBottom: '2px solid black'}}
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
           >
             Visión general del Caribe
           </h2>
@@ -153,7 +153,7 @@ const Home = () => {
         <br />
       </div>
       <h2
-            style={{textAlign: 'center', margin: '50px auto', width: '50%', borderBottom: '2px solid black'}}
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
           >
             Infraestructura energética del Caribe
           </h2>
@@ -168,7 +168,7 @@ const Home = () => {
       </div>
       <br />
       <h2
-            style={{textAlign: 'center', margin: '50px auto', width: '50%', borderBottom: '2px solid black'}}
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
           >
            Potencial eólico y solar del Caribe 
           </h2>
