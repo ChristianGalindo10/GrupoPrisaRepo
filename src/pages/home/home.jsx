@@ -120,7 +120,7 @@ const Home = () => {
           <img src={gif[gifI]?.img_url} alt="plano escaneado" />
           <div className="home-main-title-overlay">
             <h2 className="m-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              Explore los diferentes tipos de infraestructura energética presente en la región Caribe
             </h2>
           </div>
         </Link>
