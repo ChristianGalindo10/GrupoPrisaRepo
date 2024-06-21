@@ -130,6 +130,11 @@ const Home = () => {
         <Destacados data={dataDestacados}></Destacados>
       </div>
       <br />
+      <h2
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
+          >
+            Visión general del Caribe
+          </h2>
       <iframe
         src="https://geoapps.esri.co/portal/apps/experiencebuilder/experience/?id=25c1dd00a01e4e859ec719d044b3f183"
         style={{ width: "100%", height: "70vh" }}
@@ -147,6 +152,11 @@ const Home = () => {
         <br />
         <br />
       </div>
+      <h2
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
+          >
+            Infraestructura energética del Caribe
+          </h2>
       <iframe
         src="https://www.arcgis.com/apps/dashboards/f412e9a68608423dbba5bb00da64b420"
         style={{ width: "100%", height: "80vh" }}
@@ -157,6 +167,11 @@ const Home = () => {
         <Noticias data={dataNoticias}></Noticias>
       </div>
       <br />
+      <h2
+            style={{textAlign: 'center', margin: '50px auto', width: '50%'}}
+          >
+           Potencial eólico y solar del Caribe 
+          </h2>
       <iframe
         src="https://arcg.is/1qbTD50"
         style={{ width: "100%", height: "80vh" }}
