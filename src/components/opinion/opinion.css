@@ -11,6 +11,10 @@
   height: 200px;
 }
 
+.columnistas-article {
+  height: 100%;
+}
+
 @media (max-width: 600px) {
   #columnistas-section {
     grid-template-columns: 1fr 1fr;

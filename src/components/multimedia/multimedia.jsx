@@ -1,29 +1,56 @@
 import "./multimedia.css";
 const Multimedia = () => {
-    return (
-        <>
-            <h3>Galería</h3>
-            <div className="gallery-container">
-                <div className="gallery-item" style={{backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/GreenMountainWindFarm_Fluvanna_2004.jpg/350px-GreenMountainWindFarm_Fluvanna_2004.jpg')",
-                    backgroundSize: 'cover'
-                }}></div>
-                <div className="gallery-item" style={{backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsj0QqgK9JmxEPnft7nOh41sNwn0vP81X9yQ&s')",
-                    backgroundSize: 'cover'
-                }}></div>
-                <div className="gallery-item" style={{backgroundImage: "url('https://twenergy.com/wp-content/uploads/2019/11/biomasa-en-colombia.jpg')",
-                    backgroundSize: 'cover'
-                }}></div>
-                <div className="gallery-item" style={{backgroundImage: "url('https://assets.nabaliaenergia.com/site/blog/que-tipos-de-energia-hidraulica-existen.webp')",
-                    backgroundSize: 'cover'
-                }}></div>
-                <div className="gallery-item" style={{backgroundImage: "url('https://www.wradio.com.co/resizer/v2/2MCXFJLSHRBWRBJ5VXRS6PPVMI.jpg?auth=914de0d2ca83d9f901faa6236abb7c696fd7c9f50c0760e0435f71f91e4a3c18&width=650&height=488&quality=70&smart=true')",
-                    backgroundSize: 'cover'
-                }}></div>
-                <div className="gallery-item" style={{backgroundImage: "url('https://cdn0.ecologiaverde.com/es/posts/1/9/0/el_petroleo_es_un_recurso_renovable_3091_600_square.jpg')",
-                    backgroundSize: 'cover'
-                }}></div>
-            </div></>
-    )
-}
+  return (
+    <>
+      <h3>Galería</h3>
+      <div className="gallery-container">
+        <div>
+          <div
+            className="gallery-item"
+            style={{
+              backgroundImage:
+                "url('https://www.enelgreenpower.com/content/dam/enel-egp/immagini/articoli/storie/record-enel-luigi-la-pegna_1_2400x1160.jpg')",
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <span style={{fontSize: '9px', textAlign: 'center'}}><i>La empresa Enel Green Power fue la encargada del megaproyecto que tiene una capacidad de 187 megavatios y una generación media de 420 GWh/año y se consolida como el más grande del país</i></span>
+        </div>
+        <div>
+          <div
+            className="gallery-item"
+            style={{
+              backgroundImage:
+                "url('https://regioncaribe.com.co/wp-content/uploads/2022/03/Primer-Parque-Eolico-marino-de-Latinoamerica-se-construira-en-Barranquilla.jpg')",
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <span style={{fontSize: '9px', textAlign: 'center'}}><i>Ecopetrol inauguró el primer parque eólico marino que hay en Colombia, se encuentra ubicado en La Guajira y ya comenzó a aportar energía a la red eléctrica nacional.</i></span>
+        </div>
+        <div>
+          <div
+            className="gallery-item"
+            style={{
+              backgroundImage:
+                "url('https://www.portafolio.co/files/article_new_multimedia/uploads/2021/06/28/60d9cc986f218.jpeg')",
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <span style={{fontSize: '9px', textAlign: 'center'}}><i>Con la entrada de operación de esta nueva mina del Cerrejón se espera que se aumente la producción en un 30% este año.</i></span>
+        </div>
+        <div>
+          <div
+            className="gallery-item"
+            style={{
+              backgroundImage:
+                "url('https://www.wradio.com.co/resizer/v2/CEMTCNBUU5EVFD5ZZRP2YK66KQ.jpg?auth=fa0db46d92ccc5a9d664da81b9cd2a7a161955187eeba92ea771ef1b958b4f77&width=768&height=576&quality=70&smart=true')",
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <span style={{fontSize: '9px', textAlign: 'center'}}><i>Así se encuentra el embalse de Urrá en Córdoba, tras fuerte sequía que impacta al departamento. Directivas dicen que está garantizado el suministro de energía.</i></span>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Multimedia;

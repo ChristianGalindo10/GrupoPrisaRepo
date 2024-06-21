@@ -2,7 +2,8 @@
   {
     "id": "1",
     "titulo": "El diálogo en búsqueda de salidas a la crisis de las tarifas de energía",
-    "autor": "Camilo Marulanda López",
+    "autor": "Camilo Marulanda",
+    "cargo": "Presidente de ISAGEN",
     "img": "https://www.elheraldo.co/sites/default/files/styles/300x400/public/shutterstock_2197288849.jpg",
     "fecha": "13 Junio 2024",
     "desc": "La semana pasada tuve la gran oportunidad de participar en una tertulia convocada por EL HERALDO para abordar la difícil situación de las tarifas eléctricas en la Costa Atlántica y que contó con una representativa participación de la dirigencia política del Caribe…",
@@ -39,7 +40,8 @@
   {
     "id": "2",
     "titulo": "Comunidades Energéticas",
-    "autor": "Alexandra Hernández Saravia",
+    "autor": "Alexandra Hernández",
+    "cargo": "Presidenta Ejecutiva de SER Colombia",
     "fecha": "13 Junio 2024",
     "img": "https://img.lalr.co/cms/2023/10/06213259/1280X1440-Alexandra-Hernandez.jpg?size=sm",
     "desc": "Destrabar la transición energética es uno de los principales objetivos trazados por el Gobierno Nacional, pero los proyectos del sector que debían tomar dos años, actualmente tardan entre tres y seis años para entrar en operación…",
@@ -77,6 +79,7 @@
     "id": "5",
     "titulo": "Crisis Energética Regional",
     "autor": "Eduardo Verano de la Rosa",
+    "cargo": "Gobernador del Atlántico",
     "fecha": "13 Junio 2024",
     "img": "https://img.lalr.co/cms/2017/06/04151837/1280x1400_Eduardo-Verano-de-la-Rosa-gobernador-del-departamento-del-Atlantico-y-el-alcalde-de-Barranquilla-Alejandro-Char_LR.jpg?size=sm",
     "desc": "Lo primero que hay que hacer es aceptar que la Creg (Comisión de Regulación de Energía y Gas) es el instrumento del Estado para tomar las decisiones sobre el desarrollo energético del país, pero es totalmente nacional…",
@@ -117,9 +120,10 @@
     "id": "4",
     "titulo": "¿Apagón en el 2027?",
     "autor": "Daniel Duque Velásquez",
+    "cargo": "Concejal de Medellín",
     "fecha": "13 Junio 2024",
     "img": "https://estaticos.elcolombiano.com/binrepository/251x286/0c0/250d250/none/11101/QCKM/daniel-duque_43643554_20231031155225.jpg",
-    "desc": "Lo primero que hay que hacer es aceptar que la Creg (Comisión de Regulación de Energía y Gas) es el instrumento del Estado para tomar las decisiones sobre el desarrollo energético del país, pero es totalmente nacional…",
+    "desc": "Colombia enfrenta una amenaza que podría sumirnos en una grave crisis energética. De no tomar medidas, el 2027 podría marcar el inicio de apagones generalizados, dejando afectaciones muy graves para la gente y su economía",
     "contenido": [
         {
             "parrafo":"Es hora de que el gobierno y los sectores involucrados trabajen juntos para asegurar un futuro energético sostenible y seguro para todos los colombianos. Solo así podremos evitar que la oscuridad del déficit energético apague la luz del progreso y el bienestar nacional."
