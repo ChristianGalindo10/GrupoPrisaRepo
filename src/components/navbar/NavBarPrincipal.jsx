@@ -110,56 +110,56 @@ const NavbarPrincipal = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/8"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     Atlántico
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/13"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     Bolívar
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/20"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     Cesar
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/23"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     Cordoba
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/44"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     La Guajira
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/47"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     Magdalena
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/70"
                     class="dropdown-item"
                     activeClassName="active"
                   >
                     Sucre
                   </NavLink>
                   <NavLink
-                    to="/mapas/general"
+                    to="/filtros/88"
                     class="dropdown-item"
                     activeClassName="active"
                   >
@@ -168,13 +168,13 @@ const NavbarPrincipal = () => {
                 </div>
               </li>
               <NavLink
-                to="/mapas/general"
+                to="/renovables"
                 className="nav-item nav-link"
               >
                 RENOVABLES
               </NavLink>
               <NavLink
-                to="/mapas/general"
+                to="/norenovables"
                 className="nav-item nav-link"
               >
                 NO RENOVABLES
