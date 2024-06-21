@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import { Link, NavLink } from "react-router-dom";
-import proyectosBanner from "../../assets/icons/proyectosBanner.png";
+import proyectosBanner from "../../assets/icons/ProyectosBanner.png";
 import potencialBanner from "../../assets/icons/potencialBanner.png";
-import generalBanner from "../../assets/icons/generalBanner.png";
+import irradiacionBanner from "../../assets/icons/IrradiacionBanner.png";
+import vientosBanner from "../../assets/icons/VientosBanner.png";
+import generalBanner from "../../assets/icons/GeneralBanner.png";
 import Multimedia from "../../components/multimedia/multimedia";
 import noticias2 from "../../assets/icons/noticias2.png";
 import noticias3 from "../../assets/icons/noticias3.png";
@@ -76,12 +78,20 @@ const dataCintaArticulos = [
 const Home = () => {
   const gif = [
     {
+      link_url: "/mapas/proyectos",
+      img_url: proyectosBanner,
+    },
+    {
+      link_url: "/mapas/general",
+      img_url: generalBanner,
+    },
+    {
       link_url: "/mapas/potencial",
-      img_url: potencialBanner,
+      img_url: vientosBanner,
     },
     {
       link_url: "/mapas/proyectos",
-      img_url: proyectosBanner,
+      img_url: irradiacionBanner,
     },
     {
       link_url: "/mapas/general",
@@ -97,7 +107,7 @@ const Home = () => {
     const gifInterval = setInterval(() => {
       // let i = gifI
 
-      if (i <= 2) {
+      if (i <= 3) {
         setGifI(i);
         i = i + 1;
       } else {
