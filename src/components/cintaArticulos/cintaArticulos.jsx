@@ -2,7 +2,7 @@ import "./cintaArticulos.css";
 
 const CintaArticulos = ({ data }) => {
   return (
-    <div id="cinta-articulos">
+    <div className={data.length == 4 ? 'cinta-articulos-4' : 'cinta-articulos'}>
       {data.map((item) => {
         return (
           <div className="cinta-articulos-articulo">

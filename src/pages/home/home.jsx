@@ -164,7 +164,7 @@ const Home = () => {
       <br />
       <br />
       <div className="home-content">
-        <Noticias data={dataNoticias}></Noticias>
+        <Noticias data={dataNoticias} title={"Noticias"}></Noticias>
       </div>
       <br />
       <h2

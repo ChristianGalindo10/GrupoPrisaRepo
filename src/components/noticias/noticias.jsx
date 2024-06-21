@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
 import "./noticias.css";
 
-const Noticias = ({ data }) => {
+const Noticias = ({ data,title }) => {
   return (
     <div>
-      <h3>Noticias</h3>
+      <h3>{title}</h3>
       <div id="noticias-section">
         {data.map((noticia) => {
           return (

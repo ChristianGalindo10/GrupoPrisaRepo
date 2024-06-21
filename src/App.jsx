@@ -9,6 +9,8 @@ import DepartamentosPage from './pages/departamentos';
 import energiaCaribe from './pages/Filtros/energiaCaribe';
 import opinionDetalle from './pages/Detalle/opinionDetail';
 import noticiaDetalle from './pages/Detalle/noticiaDetail';
+import RenovablesPage from './pages/Energias/renovables';
+import NoRenovablesPage from './pages/Energias/noRenovables';
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
           <Route exact path="/potencialDepartamentos" Component={FiltrosPotencialPage} />
           <Route exact path="/opinion/:id" Component={opinionDetalle} />
           <Route exact path="/noticias/:id" Component={noticiaDetalle} />
+          <Route exact path="/renovables" Component={RenovablesPage} />
+          <Route exact path="/norenovables" Component={NoRenovablesPage} />
         </Routes>
       </Layout>
 
