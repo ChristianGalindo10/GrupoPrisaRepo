@@ -30,7 +30,7 @@ const dataCintaArticulos = [
     img: caribe2,
     desc: "Los gobernadores del Caribe confirman la creación de empresa con énfasis en energías limpias",
     color: "rgba(31, 100, 191, 1)",
-    antetitulo: "HIDRAULICA",
+    antetitulo: "HÍDRICA",
   },
   {
     to: "/",
@@ -84,7 +84,7 @@ const RenovablesPage = () => {
         <h3 style={{ textAlign: "center", margin: "50px auto 0", width: "50%" }}>
           ENERGÍAS RENOVABLES
         </h3>
-        <p style={{marginTop: '10px', textAlign: 'center'}}>SOLAR - EÓLICA - HIDRÁULICA  - HIDRÓGENO - BIOMASA </p>
+        <p style={{marginTop: '10px', textAlign: 'center'}}>SOLAR - EÓLICA - HÍDRICA  - HIDRÓGENO - BIOMASA </p>
       </div>
 
       <div className="home-content">

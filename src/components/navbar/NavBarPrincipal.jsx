@@ -2,12 +2,16 @@ import { NavLink } from "react-router-dom";
 import "./style.min.css";
 import "./style.css";
 import logoCaribe from "../../assets/icons/logo-Caribe 1.png";
+import logoCaribe2 from "../../assets/icons/LOGO-POTENCIA-ENERGETICA-OK 1.png";
+import logoCaribe3 from "../../assets/icons/CARIBE POTENCIA ENERGÉTICA.png";
 import esri from "../../assets/icons/esri.png";
 import celsia from "../../assets/icons/celsia.png";
 import ecopetrol from "../../assets/icons/ecopetrol.png";
 import enel from "../../assets/icons/enel.png";
 import epm from "../../assets/icons/epm.png";
 import isagen from "../../assets/icons/isagen.png";
+import naturgas from "../../assets/icons/logo-naturgas.jpg";
+import SERColombia from "../../assets/icons/SERColombia.png";
 import facebook from "../../assets/icons/icon_facebook.png";
 import instagram from "../../assets/icons/icon_instagram.png";
 import linkedin from "../../assets/icons/icon_linkedin.png";
@@ -16,16 +20,26 @@ import IconSlider from "../iconSlider/iconSlider";
 
 const NavbarPrincipal = () => {
   const icons = [
-    { src: esri, alt: "Icon 3" },
-    { src: celsia, alt: "Icon 1" },
-    { src: ecopetrol, alt: "Icon 2" },
-    { src: enel, alt: "Icon 3" },
-    { src: epm, alt: "Icon 1" },
-    { src: isagen, alt: "Icon 2" },
+    { src: esri, alt: "Esri" },
+    { src: celsia, alt: "Celsia" },
+    { src: ecopetrol, alt: "Ecopetrol" },
+    { src: enel, alt: "Enel" },
+    { src: epm, alt: "EPM" },
+    { src: isagen, alt: "Isagen" },
+    { src: naturgas, alt: "Naturgas" },
+    { src: SERColombia, alt: "SERColombia" },
   ];
   return (
     <>
       <div className="container-fluid p-0 nav-bar">
+        <div id="nav-redes" style={{height: '40px', backgroundColor: '#2B4022'}}>
+          <div style={{width: '90%', paddingTop: '7px', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
+            <img src={facebook} style={{width: '25px', height: '25px', margin: '0 10px'}}/>
+            <img src={instagram} style={{width: '25px', height: '25px', margin: '0 10px'}}/>
+            <img src={linkedin} style={{width: '25px', height: '25px', margin: '0 10px'}}/>
+            <img src={youtube} style={{width: '25px', height: '25px', margin: '0 10px'}}/>
+          </div>
+        </div>
         <nav className="navbar navbar-expand-lg bg" id="logos-nav">
           <NavLink
             to="/"
@@ -33,7 +47,8 @@ const NavbarPrincipal = () => {
             activeClassName="active"
             id="header-img"
           >
-            <img src={logoCaribe} style={{height: '100px'}}/>
+            <img src={logoCaribe2} style={{height: '100px', marginRight: '20px'}}/>
+            <img src={logoCaribe3} style={{height: '75px'}}/>
           </NavLink>
           {/* <NavLink
             to="/"
@@ -189,12 +204,6 @@ const NavbarPrincipal = () => {
                 to="/mapas/general"
                 className="nav-item nav-link"
               >
-                QUIÉNES SOMOS
-              </NavLink>
-              <NavLink
-                to="/mapas/general"
-                className="nav-item nav-link"
-              >
                 POTENCIAL
               </NavLink>
               <NavLink
@@ -203,6 +212,13 @@ const NavbarPrincipal = () => {
               >
                 MAPAS
               </NavLink>
+              <NavLink
+                to="/mapas/general"
+                className="nav-item nav-link"
+              >
+                QUIÉNES SOMOS
+              </NavLink>
+             
             </div>
           </div>
         </nav>
