@@ -13,7 +13,7 @@ import valledupar from "../../assets/icons/Vallledupar.png";
 const Departamentos = () => {
     return(
         <div id="departamentos-section">
-          <h3>Departamentos</h3>
+          <h3 className="sectionTitle">Las energías en los departamentos</h3>
           <div id="carouselExample" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">

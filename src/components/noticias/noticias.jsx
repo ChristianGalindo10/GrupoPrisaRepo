@@ -4,7 +4,7 @@ import "./noticias.css";
 const Noticias = ({ data,title }) => {
   return (
     <div>
-      <h3>{title}</h3>
+      <h3 className="sectionTitle">{title}</h3>
       <div id="noticias-section">
         {data.map((noticia) => {
           return (

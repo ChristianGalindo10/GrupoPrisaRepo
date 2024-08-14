@@ -2,7 +2,7 @@ import "./multimedia.css";
 const Multimedia = () => {
   return (
     <>
-      <h3>Galería</h3>
+      <h3 className="sectionTitle">Galería fotográfica</h3>
       <div className="gallery-container">
         <div>
           <div

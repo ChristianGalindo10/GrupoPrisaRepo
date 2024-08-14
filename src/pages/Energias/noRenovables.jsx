@@ -119,6 +119,7 @@ const NoRenovablesPage = () => {
       <br />
       <Profundidad
         data={{
+          type: 'EN PROFUNDIDAD',
           img: "https://www.minenergia.gov.co/media/images/El_ingeniero_Andres_Camacho_se_posesiona_como_n.original.jpg",
           titulo:
             "“La meta del Gobierno Nacional es producir un millón de barriles de petróleo diarios”",

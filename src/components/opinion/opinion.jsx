@@ -4,7 +4,7 @@ import "./opinion.css";
 const Opinion = ({ data }) => {
   return (
     <div>
-      <h3>Opinión</h3>
+      <h3 className="sectionTitle">Análisis y Opinión</h3>
       <div id="columnistas-section">
         {data.map((item) => {
           return (
