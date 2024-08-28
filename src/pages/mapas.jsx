@@ -29,6 +29,7 @@ const Mapas = () => {
           </option>
           <option selected={mapa == "proyectos"} value="proyectos">Proyectos</option>
           <option selected={mapa == "potencial"} value="potencial">Potencial</option>
+          <option selected={mapa == "analisis"} value="analisis">Análisis</option>
         </select>
         <br/>
         <br/>
@@ -64,6 +65,19 @@ const Mapas = () => {
               <iframe
                 src={
                   "https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=0e41ba45e6ba41d5a92f52bc4f6b36e7"
+                }
+                className="content_full_page"
+              ></iframe>
+            </section>
+          </>
+        )}
+
+        {mapa == "analisis" && (
+          <>
+            <section className="content_section">
+              <iframe
+                src={
+                  "https://mercadostech.maps.arcgis.com/apps/instant/sidebar/index.html?appid=5e213240247c4f959cc1f784d47c874d"
                 }
                 className="content_full_page"
               ></iframe>
